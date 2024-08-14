@@ -1,0 +1,4453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LOC_ID_BACK_TO_MENU_OPTIONS_1" xml:space="preserve">
+    <value>退出到标题屏幕</value>
+  </data>
+  <data name="LOC_ID_BACK_TO_MENU_OPTIONS_2" xml:space="preserve">
+    <value>退出到标题屏幕（跳过教程）</value>
+  </data>
+  <data name="LOC_ID_BACK_TO_MENU_OPTIONS_3_NEW" xml:space="preserve">
+    <value>[Input:25]以更改人物资料（{0}）</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_1" xml:space="preserve">
+    <value>生命</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_10" xml:space="preserve">
+    <value>使用方向键选择</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_11_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]导航</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_12" xml:space="preserve">
+    <value>选择一个种类</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_13" xml:space="preserve">
+    <value>所需图纸</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_14" xml:space="preserve">
+    <value>此处为购买信息</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_15" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_16_NEW" xml:space="preserve">
+    <value>{0}以解锁</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_2" xml:space="preserve">
+    <value>法力</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_3" xml:space="preserve">
+    <value>伤害</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_4" xml:space="preserve">
+    <value>魔法</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_5" xml:space="preserve">
+    <value>护甲</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_6" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_7" xml:space="preserve">
+    <value>附加属性：</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_8_NEW" xml:space="preserve">
+    <value>[Input:0]选择/装备</value>
+  </data>
+  <data name="LOC_ID_BLACKSMITH_SCREEN_9_NEW" xml:space="preserve">
+    <value>[Input:2]取消/关闭菜单</value>
+  </data>
+  <data name="LOC_ID_CARNIVAL_BONUS_ROOM_1" xml:space="preserve">
+    <value>已摧毁目标：</value>
+  </data>
+  <data name="LOC_ID_CARNIVAL_BONUS_ROOM_2" xml:space="preserve">
+    <value>剩余目标：</value>
+  </data>
+  <data name="LOC_ID_CARNIVAL_BONUS_ROOM_3" xml:space="preserve">
+    <value>奖励：</value>
+  </data>
+  <data name="LOC_ID_CARNIVAL_BONUS_ROOM_4" xml:space="preserve">
+    <value>黄金</value>
+  </data>
+  <data name="LOC_ID_CASTLE_ENTRANCE_ROOM_OBJ_1" xml:space="preserve">
+    <value>随时查看地图</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_1" xml:space="preserve">
+    <value>更改控制</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_10" xml:space="preserve">
+    <value>向右猛冲</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_11" xml:space="preserve">
+    <value>施法</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_12" xml:space="preserve">
+    <value>重设控制</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_14" xml:space="preserve">
+    <value>按下任意键</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_2" xml:space="preserve">
+    <value>上</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_3" xml:space="preserve">
+    <value>下</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_4" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_5" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_6" xml:space="preserve">
+    <value>攻击</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_7" xml:space="preserve">
+    <value>跳跃</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_8" xml:space="preserve">
+    <value>特殊技能</value>
+  </data>
+  <data name="LOC_ID_CHANGE_CONTROLS_OPTIONS_9" xml:space="preserve">
+    <value>向左猛冲</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_1" xml:space="preserve">
+    <value>水一方</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_10" xml:space="preserve">
+    <value>唐秋香</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_11" xml:space="preserve">
+    <value>方美人</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_12" xml:space="preserve">
+    <value>金喜儿</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_13" xml:space="preserve">
+    <value>达莉萍</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_14" xml:space="preserve">
+    <value>蔡靜语</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_15" xml:space="preserve">
+    <value>郭玲玲</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_16" xml:space="preserve">
+    <value>黃晓莺</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_17" xml:space="preserve">
+    <value>杜秋娘</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_18" xml:space="preserve">
+    <value>高媛媛</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_19" xml:space="preserve">
+    <value>林靜妤</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_2" xml:space="preserve">
+    <value>刘妙音</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_20" xml:space="preserve">
+    <value>凤雨婷</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_21" xml:space="preserve">
+    <value>徐瑶瑶</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_22" xml:space="preserve">
+    <value>祝台英</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_23" xml:space="preserve">
+    <value>郭燕秋</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_24" xml:space="preserve">
+    <value>江小满</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_25" xml:space="preserve">
+    <value>项月芳</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_26" xml:space="preserve">
+    <value>郑云云</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_27" xml:space="preserve">
+    <value>王琼琼</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_28" xml:space="preserve">
+    <value>李瓶儿</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_29" xml:space="preserve">
+    <value>周楚红</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_3" xml:space="preserve">
+    <value>郭釆薇</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_30" xml:space="preserve">
+    <value>叶秋菊</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_4" xml:space="preserve">
+    <value>颜如玉</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_5" xml:space="preserve">
+    <value>陈巧雅</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_6" xml:space="preserve">
+    <value>萧玉旋</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_7" xml:space="preserve">
+    <value>花可秀</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_8" xml:space="preserve">
+    <value>董小婉</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_FEMALE_9" xml:space="preserve">
+    <value>李诗诗</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_1" xml:space="preserve">
+    <value>马如龙</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_10" xml:space="preserve">
+    <value>应楚山</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_11" xml:space="preserve">
+    <value>江山月</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_12" xml:space="preserve">
+    <value>赵慕寒</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_13" xml:space="preserve">
+    <value>万重山</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_14" xml:space="preserve">
+    <value>郭百鸣</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_15" xml:space="preserve">
+    <value>谢武夫</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_16" xml:space="preserve">
+    <value>关中林</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_17" xml:space="preserve">
+    <value>吴深山</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_18" xml:space="preserve">
+    <value>向春风</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_19" xml:space="preserve">
+    <value>牛始旦</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_2" xml:space="preserve">
+    <value>常遇春</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_20" xml:space="preserve">
+    <value>卫东方</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_21" xml:space="preserve">
+    <value>萧北辰</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_22" xml:space="preserve">
+    <value>黃鹤年</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_23" xml:space="preserve">
+    <value>王石柱</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_24" xml:space="preserve">
+    <value>胡江林</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_25" xml:space="preserve">
+    <value>周宇浩</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_26" xml:space="preserve">
+    <value>程向阳</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_27" xml:space="preserve">
+    <value>魏海风</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_28" xml:space="preserve">
+    <value>龚剑辉</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_29" xml:space="preserve">
+    <value>周宇浩</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_3" xml:space="preserve">
+    <value>胡不归</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_30" xml:space="preserve">
+    <value>何汝平</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_4" xml:space="preserve">
+    <value>何千山</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_5" xml:space="preserve">
+    <value>方日中</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_6" xml:space="preserve">
+    <value>谢南山</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_7" xml:space="preserve">
+    <value>慕江南</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_8" xml:space="preserve">
+    <value>赵寒江</value>
+  </data>
+  <data name="LOC_ID_CHINESE_NAMES_MALE_9" xml:space="preserve">
+    <value>宋乔木</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_1" xml:space="preserve">
+    <value>标准的英雄。各项数据平均。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_10" xml:space="preserve">
+    <value>行走的坦克。这个英雄可以承受巨额伤害。\n特殊技能：野蛮人之吼。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_11" xml:space="preserve">
+    <value>迅捷的英雄。能造成巨额伤害，但无法暴击。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_12" xml:space="preserve">
+    <value>迅捷的英雄。能造成巨额伤害，但无法暴击。\n特殊技能：替身瞬移。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_13" xml:space="preserve">
+    <value>高手用的英雄。命中敌人以获得法力。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_14" xml:space="preserve">
+    <value>高手用的英雄。命中敌人以获得法力。\n特殊技能：强化法术。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_15" xml:space="preserve">
+    <value>食尸为生。每次击杀可增加最大生命值，但有上限。“冰雪”聪明。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_16" xml:space="preserve">
+    <value>食尸为生。每次击杀可增加最大生命值，但有上限。“冰雪”聪明。\n特殊技能：生命转换。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_17" xml:space="preserve">
+    <value>你是一名龙人</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_18" xml:space="preserve">
+    <value>?????</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_2" xml:space="preserve">
+    <value>标准的英雄。各项数据平均。\n特殊技能：守护者之盾。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_3" xml:space="preserve">
+    <value>冒险的英雄。属性较低，但可造成破坏性的暴击伤害。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_4" xml:space="preserve">
+    <value>冒险的英雄。属性较低，但可造成破坏性的暴击伤害。\n特殊技能：迷雾形态。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_5" xml:space="preserve">
+    <value>囤金的英雄。属性很弱，但可获得大量额外黄金。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_6" xml:space="preserve">
+    <value>囤金的英雄。属性很弱，但可获得大量额外黄金。\n特殊技能：普通矿灯。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_7" xml:space="preserve">
+    <value>强大的法师。每次击杀会恢复法力。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_8" xml:space="preserve">
+    <value>强大的法师。每次击杀会恢复法力。\n特殊技能：法术切换。</value>
+  </data>
+  <data name="LOC_ID_CLASS_DESC_9" xml:space="preserve">
+    <value>行走的坦克。这个英雄可以承受巨额伤害。</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_10_FEMALE" xml:space="preserve">
+    <value>蛮后</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_10_MALE" xml:space="preserve">
+    <value>蛮王</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_11" xml:space="preserve">
+    <value>忍者</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_12" xml:space="preserve">
+    <value>火影</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_13_FEMALE" xml:space="preserve">
+    <value>魔盗</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_13_MALE" xml:space="preserve">
+    <value>魔盗</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_14_FEMALE" xml:space="preserve">
+    <value>魔剑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_14_MALE" xml:space="preserve">
+    <value>魔剑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_15" xml:space="preserve">
+    <value>巫妖</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_16_FEMALE" xml:space="preserve">
+    <value>巫妖后</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_16_MALE" xml:space="preserve">
+    <value>巫妖王</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_17_FEMALE" xml:space="preserve">
+    <value>龙人</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_17_MALE" xml:space="preserve">
+    <value>龙人</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_18_FEMALE" xml:space="preserve">
+    <value>叛徒</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_18_MALE" xml:space="preserve">
+    <value>叛徒</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_1_FEMALE" xml:space="preserve">
+    <value>骑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_1_MALE" xml:space="preserve">
+    <value>骑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_2_FEMALE" xml:space="preserve">
+    <value>圣骑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_2_MALE" xml:space="preserve">
+    <value>圣骑士</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_3_FEMALE" xml:space="preserve">
+    <value>无赖</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_3_MALE" xml:space="preserve">
+    <value>无赖</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_4_FEMALE" xml:space="preserve">
+    <value>刺客</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_4_MALE" xml:space="preserve">
+    <value>刺客</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_5_FEMALE" xml:space="preserve">
+    <value>矿工</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_5_MALE" xml:space="preserve">
+    <value>矿工</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_6_FEMALE" xml:space="preserve">
+    <value>勘探者</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_6_MALE" xml:space="preserve">
+    <value>勘探者</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_7_FEMALE" xml:space="preserve">
+    <value>法师</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_7_MALE" xml:space="preserve">
+    <value>法师</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_8_FEMALE" xml:space="preserve">
+    <value>大法师</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_8_MALE" xml:space="preserve">
+    <value>大法师</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_9_FEMALE" xml:space="preserve">
+    <value>野蛮人</value>
+  </data>
+  <data name="LOC_ID_CLASS_NAME_9_MALE" xml:space="preserve">
+    <value>野蛮人</value>
+  </data>
+  <data name="LOC_ID_COPYRIGHT_GENERIC" xml:space="preserve">
+    <value>版权所有 (C) 2013-2018，Cellar Door Games公司。</value>
+  </data>
+  <data name="LOC_ID_CREDITS_JAPAN" xml:space="preserve">
+    <value>日语本地化以及出品方为</value>
+  </data>
+  <data name="LOC_ID_CREDITS_QA" xml:space="preserve">
+    <value>质量保证</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_1" xml:space="preserve">
+    <value>感谢游戏！</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_10" xml:space="preserve">
+    <value>美术：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_11" xml:space="preserve">
+    <value>音乐和音频设计：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_12" xml:space="preserve">
+    <value>音乐：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_13" xml:space="preserve">
+    <value>营销与情节：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_14" xml:space="preserve">
+    <value>其他音频设计：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_15" xml:space="preserve">
+    <value>其他背景美术：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_16" xml:space="preserve">
+    <value>商业支持：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_17" xml:space="preserve">
+    <value>特别鸣谢：Turbo Edition</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_18" xml:space="preserve">
+    <value>特别感谢：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_19" xml:space="preserve">
+    <value>感谢：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_2" xml:space="preserve">
+    <value>后代总数：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_20" xml:space="preserve">
+    <value>Mac/Linux版本改编：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_21" xml:space="preserve">
+    <value>Mac/Linux测试团队：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_22" xml:space="preserve">
+    <value>感谢所有粉丝的大力支持！</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_23" xml:space="preserve">
+    <value>原作本地化：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_24" xml:space="preserve">
+    <value>中文版及本地化：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_25" xml:space="preserve">
+    <value>附加程序</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_26" xml:space="preserve">
+    <value>改编自</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_3" xml:space="preserve">
+    <value>已游戏时间：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_4_NEW" xml:space="preserve">
+    <value>按下[Input:0]退出</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_6" xml:space="preserve">
+    <value>开发：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_7" xml:space="preserve">
+    <value>设计与情节：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_8" xml:space="preserve">
+    <value>程序编制：</value>
+  </data>
+  <data name="LOC_ID_CREDITS_SCREEN_9" xml:space="preserve">
+    <value>出品：</value>
+  </data>
+  <data name="LOC_ID_DEAD_ZONE_OPTIONS_1" xml:space="preserve">
+    <value>控制杆盲区</value>
+  </data>
+  <data name="LOC_ID_DELETE_SAVE_OPTIONS_1" xml:space="preserve">
+    <value>删除存档</value>
+  </data>
+  <data name="LOC_ID_DIARY_1" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_10" xml:space="preserve">
+    <value>尽管我是国王的长子，却不是他最喜欢的孩子。我一直知道，他不打算为我留下任何东西。</value>
+  </data>
+  <data name="LOC_ID_DIARY_100" xml:space="preserve">
+    <value>……如果，我错把他们当成怪兽杀了，该怎么办？</value>
+  </data>
+  <data name="LOC_ID_DIARY_101" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_102" xml:space="preserve">
+    <value>日记#17</value>
+  </data>
+  <data name="LOC_ID_DIARY_103" xml:space="preserve">
+    <value>我肯定已经疯了。我居然在这城堡里偶然闯入了一场狂欢活动。有一个悲伤的小丑，还有其他东西。</value>
+  </data>
+  <data name="LOC_ID_DIARY_104" xml:space="preserve">
+    <value>他是个蠢货。但在这种地方，也不能对你的朋友太挑剔了吧。</value>
+  </data>
+  <data name="LOC_ID_DIARY_105" xml:space="preserve">
+    <value>我又饿了。幸好我还有鸡腿充饥。我在吊灯上找到了这些。</value>
+  </data>
+  <data name="LOC_ID_DIARY_106" xml:space="preserve">
+    <value>这座堡垒……有时我怀疑这一切不过是个大玩笑。</value>
+  </data>
+  <data name="LOC_ID_DIARY_107" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_108" xml:space="preserve">
+    <value>日记#18</value>
+  </data>
+  <data name="LOC_ID_DIARY_109" xml:space="preserve">
+    <value>我打败了塔楼中的怪兽，又一次感到正殿大门被削弱了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_11" xml:space="preserve">
+    <value>但只要我找到了灵药，一切都会改变。</value>
+  </data>
+  <data name="LOC_ID_DIARY_110" xml:space="preserve">
+    <value>从胜利中获得的快感无可匹敌！我从未感到过如此自信、如此强大、如此……酣畅。最后一步，我就能获得我的奖励！</value>
+  </data>
+  <data name="LOC_ID_DIARY_111" xml:space="preserve">
+    <value>距离成功一步之遥！我会让父亲为我骄傲！</value>
+  </data>
+  <data name="LOC_ID_DIARY_112" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_113" xml:space="preserve">
+    <value>日记#19</value>
+  </data>
+  <data name="LOC_ID_DIARY_114" xml:space="preserve">
+    <value>我已站在地牢的大门外太久太久，久到我羞于承认。</value>
+  </data>
+  <data name="LOC_ID_DIARY_115" xml:space="preserve">
+    <value>我的勇气终于消退了，我窥视到地底的怪兽，它们让我之前的所有努力看起来异常可怜可笑。</value>
+  </data>
+  <data name="LOC_ID_DIARY_116" xml:space="preserve">
+    <value>我必须坚定信念。我必须专注。地底下太黑了，我怕我会迷失本心。</value>
+  </data>
+  <data name="LOC_ID_DIARY_117" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_118" xml:space="preserve">
+    <value>日记#20</value>
+  </data>
+  <data name="LOC_ID_DIARY_119" xml:space="preserve">
+    <value>我以为我知道何为黑暗，但在地底，黑暗却是有声音的。</value>
+  </data>
+  <data name="LOC_ID_DIARY_12" xml:space="preserve">
+    <value>获胜者毫无疑问将在父亲过世后继承那顶王冠。</value>
+  </data>
+  <data name="LOC_ID_DIARY_120" xml:space="preserve">
+    <value>它在栅栏的另一头，在转角的另一边发出呼唤。它嘲弄我。</value>
+  </data>
+  <data name="LOC_ID_DIARY_121" xml:space="preserve">
+    <value>这里的黑暗如此厚重，几乎触手可及，怪兽们在此筑巢安家。它们从走廊中飞奔而过，比我之前战斗过的任何东西都要可怕。</value>
+  </data>
+  <data name="LOC_ID_DIARY_122" xml:space="preserve">
+    <value>我必须保持谨慎，恰当地规划我的战斗。在这里，贸然对抗可能会付出生命。</value>
+  </data>
+  <data name="LOC_ID_DIARY_123" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_124" xml:space="preserve">
+    <value>日记#21</value>
+  </data>
+  <data name="LOC_ID_DIARY_125" xml:space="preserve">
+    <value>我做到了！我打败了地底之王！现在只剩正殿了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_126" xml:space="preserve">
+    <value>之后，国王就会以我为荣，承认我是王位的合法继承人！</value>
+  </data>
+  <data name="LOC_ID_DIARY_127" xml:space="preserve">
+    <value>而不是我那群无知的弟妹！</value>
+  </data>
+  <data name="LOC_ID_DIARY_128" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_129" xml:space="preserve">
+    <value>日记#22</value>
+  </data>
+  <data name="LOC_ID_DIARY_13" xml:space="preserve">
+    <value>继承王位后，我的妻子和儿女就可以搬回皇宫。回到皇城，获得我们应有的尊重！</value>
+  </data>
+  <data name="LOC_ID_DIARY_130" xml:space="preserve">
+    <value>我坐在这里进行最后的准备。我与城堡领主之间，最后的屏障就是这道金色的大门。</value>
+  </data>
+  <data name="LOC_ID_DIARY_131" xml:space="preserve">
+    <value>我的心中涌起一股无法平复的紧张。是恐惧，还是恐惧之下的兴奋？我只知道，我终于来到了旅途的终点。</value>
+  </data>
+  <data name="LOC_ID_DIARY_132" xml:space="preserve">
+    <value>我曾经几乎忘却来到这座城堡的初衷，但现在，我想起来了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_133" xml:space="preserve">
+    <value>我已证明了自己比弟妹们更加优秀，我将拯救国王——离开城堡的我，将比当初步入城堡的我更加强大。我的家族也将为此享受应得的荣光。</value>
+  </data>
+  <data name="LOC_ID_DIARY_134" xml:space="preserve">
+    <value>现在，我要进入正殿了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_135" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_136" xml:space="preserve">
+    <value>日记#23</value>
+  </data>
+  <data name="LOC_ID_DIARY_137" xml:space="preserve">
+    <value>我从不知道这城堡中有何宝藏。我只知道这里有治好国王的灵药。</value>
+  </data>
+  <data name="LOC_ID_DIARY_138" xml:space="preserve">
+    <value>谁会想到，那竟然是青春之泉呢？</value>
+  </data>
+  <data name="LOC_ID_DIARY_139" xml:space="preserve">
+    <value>我本以为等待我的会是王座上的怪兽，一名无比强大的敌人。我需要用尽全身力气才能打败的敌人。</value>
+  </data>
+  <data name="LOC_ID_DIARY_14" xml:space="preserve">
+    <value>不必再忍受堂兄弟们的窃窃私语和飞短流长。我们经过时，其他贵胄都要鞠躬让路！但我首先要超越自己。</value>
+  </data>
+  <data name="LOC_ID_DIARY_140" xml:space="preserve">
+    <value>但是当我进入城堡，看到的却是我的父亲——国王本人——端坐王座，手托酒杯，我知道，一切都完了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_141" xml:space="preserve">
+    <value>他，不老不死……</value>
+  </data>
+  <data name="LOC_ID_DIARY_142" xml:space="preserve">
+    <value>……而我，永远继承不了王位。</value>
+  </data>
+  <data name="LOC_ID_DIARY_143" xml:space="preserve">
+    <value>我无法用语言形容我的感受。</value>
+  </data>
+  <data name="LOC_ID_DIARY_144" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_145" xml:space="preserve">
+    <value>日记#24</value>
+  </data>
+  <data name="LOC_ID_DIARY_146" xml:space="preserve">
+    <value>…………………………………………</value>
+  </data>
+  <data name="LOC_ID_DIARY_147" xml:space="preserve">
+    <value>……</value>
+  </data>
+  <data name="LOC_ID_DIARY_148" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_149" xml:space="preserve">
+    <value>日记#25</value>
+  </data>
+  <data name="LOC_ID_DIARY_15" xml:space="preserve">
+    <value>我必须记住三个最重要的目标：征服城堡、找到灵药、获得奖励。</value>
+  </data>
+  <data name="LOC_ID_DIARY_150" xml:space="preserve">
+    <value>今天，即是永恒。</value>
+  </data>
+  <data name="LOC_ID_DIARY_151" xml:space="preserve">
+    <value>我从不知道这城堡中有何宝藏。只知道那灵药可治愈国王的伤病。</value>
+  </data>
+  <data name="LOC_ID_DIARY_152" xml:space="preserve">
+    <value>……谁会知道，那竟然是青春之泉呢？传说中的泉水，给予人不老不死的生命。</value>
+  </data>
+  <data name="LOC_ID_DIARY_153" xml:space="preserve">
+    <value>当我凝视国王的身躯时，我忽然意识到，子孙后代为先辈的罪行负责，这是不可避免的。</value>
+  </data>
+  <data name="LOC_ID_DIARY_154" xml:space="preserve">
+    <value>进入这座城堡时，我是一名剑士，一个救世主……</value>
+  </data>
+  <data name="LOC_ID_DIARY_155" xml:space="preserve">
+    <value>而现在，我只留下了盗贼的遗产。</value>
+  </data>
+  <data name="LOC_ID_DIARY_156" xml:space="preserve">
+    <value>我能感到你的愤怒，但要知道，毁灭你的家族的并不是我。</value>
+  </data>
+  <data name="LOC_ID_DIARY_157" xml:space="preserve">
+    <value>自国王踏进城堡的那一刻起，国库中的所有财富都已被卡戎拿走。我的家族——所有的家族——都不可能再获得更好的生活。</value>
+  </data>
+  <data name="LOC_ID_DIARY_158" xml:space="preserve">
+    <value>在我的脑海中，我已经可以预见绝望与贫困如何蹂躏这个可悲的国度。已经没有什么让我回去的理由。</value>
+  </data>
+  <data name="LOC_ID_DIARY_159" xml:space="preserve">
+    <value>我的孩子们，我的孩子的孩子们，我就坐在这里，无悲无喜，不腐不朽，等待你们的到来。</value>
+  </data>
+  <data name="LOC_ID_DIARY_16" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_160" xml:space="preserve">
+    <value>约翰内斯</value>
+  </data>
+  <data name="LOC_ID_DIARY_161" xml:space="preserve">
+    <value>这算什么？你竟敢……嘲弄我！？</value>
+  </data>
+  <data name="LOC_ID_DIARY_162" xml:space="preserve">
+    <value>你无数的先辈牺牲生命才来到这里，来践行他们空洞的正义。你却来嘲弄我？</value>
+  </data>
+  <data name="LOC_ID_DIARY_163" xml:space="preserve">
+    <value>很好，我宽恕你的无知。动手吧！</value>
+  </data>
+  <data name="LOC_ID_DIARY_164" xml:space="preserve">
+    <value>约翰内斯</value>
+  </data>
+  <data name="LOC_ID_DIARY_165" xml:space="preserve">
+    <value>你为什么要和我战斗？在你可悲的报复行动中，死去了多少儿女？</value>
+  </data>
+  <data name="LOC_ID_DIARY_166" xml:space="preserve">
+    <value>是国王毁灭了你的国家，而不是我！</value>
+  </data>
+  <data name="LOC_ID_DIARY_167" xml:space="preserve">
+    <value>他骗了我们。他说他身负重伤，但他只是害怕衰老的到来！</value>
+  </data>
+  <data name="LOC_ID_DIARY_168" xml:space="preserve">
+    <value>他让孩子们互相残杀，牺牲一切只为了满足他自己的私欲，最后留下我们，身无分文，众叛亲离。</value>
+  </data>
+  <data name="LOC_ID_DIARY_169" xml:space="preserve">
+    <value>我只好作出了唯一的选择。我要背弃国王和这个国家……</value>
+  </data>
+  <data name="LOC_ID_DIARY_17" xml:space="preserve">
+    <value>日记#3</value>
+  </data>
+  <data name="LOC_ID_DIARY_170" xml:space="preserve">
+    <value>选择一个新的家族！</value>
+  </data>
+  <data name="LOC_ID_DIARY_171" xml:space="preserve">
+    <value>约翰内斯</value>
+  </data>
+  <data name="LOC_ID_DIARY_172" xml:space="preserve">
+    <value>你以为你已经杀死我了吗？</value>
+  </data>
+  <data name="LOC_ID_DIARY_173" xml:space="preserve">
+    <value>我已经活了一千多年，我还要再活一万年！</value>
+  </data>
+  <data name="LOC_ID_DIARY_174" xml:space="preserve">
+    <value>亚历山大……德尔……庞塞·德莱昂……</value>
+  </data>
+  <data name="LOC_ID_DIARY_175" xml:space="preserve">
+    <value>我不是第一个到达泉水的英雄……</value>
+  </data>
+  <data name="LOC_ID_DIARY_176" xml:space="preserve">
+    <value>但我将是最后一个！</value>
+  </data>
+  <data name="LOC_ID_DIARY_177" xml:space="preserve">
+    <value>青春之泉</value>
+  </data>
+  <data name="LOC_ID_DIARY_178" xml:space="preserve">
+    <value>……</value>
+  </data>
+  <data name="LOC_ID_DIARY_179" xml:space="preserve">
+    <value>你打败了我……但是你又付出了怎样的代价？</value>
+  </data>
+  <data name="LOC_ID_DIARY_18" xml:space="preserve">
+    <value>我付出了大笔钱财，终于进入了城堡。可恶的卡戎拿走了我所有的钱。</value>
+  </data>
+  <data name="LOC_ID_DIARY_180" xml:space="preserve">
+    <value>我杀死了国王，但那是因为他先背叛了他的子民。</value>
+  </data>
+  <data name="LOC_ID_DIARY_181" xml:space="preserve">
+    <value>而你，又行的是什么样的正义呢？</value>
+  </data>
+  <data name="LOC_ID_DIARY_182" xml:space="preserve">
+    <value>殊途同归，我们犯下的是同样的罪行。看看你的先辈们吧——这就是愚忠的代价。</value>
+  </data>
+  <data name="LOC_ID_DIARY_183" xml:space="preserve">
+    <value>……</value>
+  </data>
+  <data name="LOC_ID_DIARY_184" xml:space="preserve">
+    <value>……</value>
+  </data>
+  <data name="LOC_ID_DIARY_185" xml:space="preserve">
+    <value>阳光……</value>
+  </data>
+  <data name="LOC_ID_DIARY_186" xml:space="preserve">
+    <value>我已经忘记了那是什么滋味……</value>
+  </data>
+  <data name="LOC_ID_DIARY_19" xml:space="preserve">
+    <value>甚至连我的小金库都拿走了！我什么也没有给妻子和孩子们留下。</value>
+  </data>
+  <data name="LOC_ID_DIARY_2" xml:space="preserve">
+    <value>日记#1</value>
+  </data>
+  <data name="LOC_ID_DIARY_20" xml:space="preserve">
+    <value>他说，这是所有要进入城堡的人都必须付出的代价。他说这很公平。</value>
+  </data>
+  <data name="LOC_ID_DIARY_21" xml:space="preserve">
+    <value>之所以公平，是因为进去的人从来都没有回来过。但我会打破这个“公平”。</value>
+  </data>
+  <data name="LOC_ID_DIARY_22" xml:space="preserve">
+    <value>我会获得胜利！即使算上我的兄弟姐妹，也没有比我更伟大的剑士了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_23" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_24" xml:space="preserve">
+    <value>日记#4</value>
+  </data>
+  <data name="LOC_ID_DIARY_25" xml:space="preserve">
+    <value>城堡里的一切都是封闭的。我在这里晕头转向，也没有太阳或群星可以提供指示。</value>
+  </data>
+  <data name="LOC_ID_DIARY_26" xml:space="preserve">
+    <value>我发现我经常走回头路，必须煞费苦心地记录前进的路线，否则就可能原地绕圈子。 </value>
+  </data>
+  <data name="LOC_ID_DIARY_27" xml:space="preserve">
+    <value>我从其他冒险者身上搜刮出的地图简直乱七八糟。仿佛我们走的不是同一个城堡！</value>
+  </data>
+  <data name="LOC_ID_DIARY_28" xml:space="preserve">
+    <value>也许这个地方对人的神智有些影响……</value>
+  </data>
+  <data name="LOC_ID_DIARY_29" xml:space="preserve">
+    <value>还是说，我脚下的石头真的在移动？</value>
+  </data>
+  <data name="LOC_ID_DIARY_3" xml:space="preserve">
+    <value>叛臣贼子！一名刺客刺伤了我的父亲，国王陛下！</value>
+  </data>
+  <data name="LOC_ID_DIARY_30" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_31" xml:space="preserve">
+    <value>日记#5</value>
+  </data>
+  <data name="LOC_ID_DIARY_32" xml:space="preserve">
+    <value>我无法从正门出去，但没有关系。我将坚守信念，绝不退缩！</value>
+  </data>
+  <data name="LOC_ID_DIARY_33" xml:space="preserve">
+    <value>到目前为止，我还没有发现与我自己的地图相符的地图。</value>
+  </data>
+  <data name="LOC_ID_DIARY_34" xml:space="preserve">
+    <value>但是在经过整体比较之后，我想我发现了一点小小的规律。森林似乎总在城堡的右边，而塔楼在上面……</value>
+  </data>
+  <data name="LOC_ID_DIARY_35" xml:space="preserve">
+    <value>至于下面？但愿我没机会知道。</value>
+  </data>
+  <data name="LOC_ID_DIARY_36" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_37" xml:space="preserve">
+    <value>日记#6</value>
+  </data>
+  <data name="LOC_ID_DIARY_38" xml:space="preserve">
+    <value>我从来不喜欢黑暗。我更喜欢在视野开阔的地带面对我的敌人。</value>
+  </data>
+  <data name="LOC_ID_DIARY_39" xml:space="preserve">
+    <value>但是现在，我不得不手握剑柄探出胳膊，在这些黑暗的绞架中穿行。我永远不知道在下一个转角会迎来怎样的恐怖。</value>
+  </data>
+  <data name="LOC_ID_DIARY_4" xml:space="preserve">
+    <value>为了重新恢复王国的秩序，国王派我和其他兄弟姐妹出来寻找治愈他的良方。我们将一同前往诅咒森林边上的哈莫森城堡。</value>
+  </data>
+  <data name="LOC_ID_DIARY_40" xml:space="preserve">
+    <value>我是大陆上最伟大的剑士，但即便是我，也无法限制住这些怪物。</value>
+  </data>
+  <data name="LOC_ID_DIARY_41" xml:space="preserve">
+    <value>我的弟妹们应该感谢我身先士卒。这对他们来说，也算因祸得福吧。他们可没有办法在这里活下来。</value>
+  </data>
+  <data name="LOC_ID_DIARY_42" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_43" xml:space="preserve">
+    <value>日记#7</value>
+  </data>
+  <data name="LOC_ID_DIARY_44" xml:space="preserve">
+    <value>仍然是漫漫长夜。每次路过窗口，我抬头看到的都是同一轮郁卒的月亮，但我发誓我已经在城堡里待了至少一整个白天了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_45" xml:space="preserve">
+    <value>一定是肾上腺素的作用。我从未感到如此强大，同时又如此警惕。在这些房间里冲锋陷阵，杀死一个又一个的敌人，令我极度兴奋。</value>
+  </data>
+  <data name="LOC_ID_DIARY_46" xml:space="preserve">
+    <value>我总感觉这座堡垒里的敌人仿佛是为我量身定做的。训练我，引导我，观察我。</value>
+  </data>
+  <data name="LOC_ID_DIARY_47" xml:space="preserve">
+    <value>听起来可能有点疯狂，但如果城堡也有知觉，可以感受到它体内发生的事，恐怕它也是不安好心。  如果我的推理正确，所有这些房间的设计都是为了要将我引向一个早已布好的陷阱。</value>
+  </data>
+  <data name="LOC_ID_DIARY_48" xml:space="preserve">
+    <value>我必须时刻保持警惕。</value>
+  </data>
+  <data name="LOC_ID_DIARY_49" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_5" xml:space="preserve">
+    <value>这座被诅咒的城堡自远古时代起就伫立在森林的边缘，但人们传说其中藏有可治愈一切病痛的灵药。</value>
+  </data>
+  <data name="LOC_ID_DIARY_50" xml:space="preserve">
+    <value>日记#8</value>
+  </data>
+  <data name="LOC_ID_DIARY_51" xml:space="preserve">
+    <value>根据我在穿越这些房间时遇到的冒险者尸体的情况判断，我得出了以下几个结论：</value>
+  </data>
+  <data name="LOC_ID_DIARY_52" xml:space="preserve">
+    <value>1：许多人死于供给不足。我猜不少人是活活饿死的。我自己的补给也不多了，我必须尽快找到更多补给品。</value>
+  </data>
+  <data name="LOC_ID_DIARY_53" xml:space="preserve">
+    <value>2：许多尸体没穿衣服，这就能够解释为什么有些丧尸穿着内裤了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_54" xml:space="preserve">
+    <value>3：我已到达了无人曾到达的房间，因为在过去的一小时里我没有遇到任何尸体。</value>
+  </data>
+  <data name="LOC_ID_DIARY_55" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_56" xml:space="preserve">
+    <value>日记#9</value>
+  </data>
+  <data name="LOC_ID_DIARY_57" xml:space="preserve">
+    <value>通往正殿的大门快要把我逼疯了！大门后面就藏着国王的灵药，我的奖励，但它只是静静地伫立在城堡的大厅中，无言地嘲笑着我。</value>
+  </data>
+  <data name="LOC_ID_DIARY_58" xml:space="preserve">
+    <value>我用力推它、踢它、甚至大喊“芝麻开门”，但这一切完全不起作用。</value>
+  </data>
+  <data name="LOC_ID_DIARY_59" xml:space="preserve">
+    <value>门上装饰着各种纹章，其中一个看起来很像我曾在堡垒深处偶然遭遇，吓得我赶紧离开的怪兽。也许这其中有什么关联？</value>
+  </data>
+  <data name="LOC_ID_DIARY_6" xml:space="preserve">
+    <value>今晚我要趁弟妹们还在睡觉时先拔头筹。</value>
+  </data>
+  <data name="LOC_ID_DIARY_60" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_61" xml:space="preserve">
+    <value>日记#10</value>
+  </data>
+  <data name="LOC_ID_DIARY_62" xml:space="preserve">
+    <value>门上的纹章是新的线索！我杀死了一头纹章上的怪兽，我感到正殿门后面有什么东西开始转动。</value>
+  </data>
+  <data name="LOC_ID_DIARY_63" xml:space="preserve">
+    <value>仿佛在梦里，我能看见门上的纹章从我的脑海中闪过。</value>
+  </data>
+  <data name="LOC_ID_DIARY_64" xml:space="preserve">
+    <value>真正的灵魂出窍。</value>
+  </data>
+  <data name="LOC_ID_DIARY_65" xml:space="preserve">
+    <value>至少我知道我走对了。但我必须加快步伐，因为国王随时可能死于伤痛……</value>
+  </data>
+  <data name="LOC_ID_DIARY_66" xml:space="preserve">
+    <value>但首先我需要休息一下。明天，我将开始探索森林。</value>
+  </data>
+  <data name="LOC_ID_DIARY_67" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_68" xml:space="preserve">
+    <value>日记#11</value>
+  </data>
+  <data name="LOC_ID_DIARY_69" xml:space="preserve">
+    <value>这座森林和我过去见过的一切都不相同。平静而又可怕。我站在丰茂的草地上，在我身边却有一道仿佛要吞噬一切的深沟。</value>
+  </data>
+  <data name="LOC_ID_DIARY_7" xml:space="preserve">
+    <value>任务失败将使我的声名蒙尘。</value>
+  </data>
+  <data name="LOC_ID_DIARY_70" xml:space="preserve">
+    <value>我仍然没有听见我之前扔下去的小石子的回音。走错一步，我将永远坠落。真是个可怕的念头。</value>
+  </data>
+  <data name="LOC_ID_DIARY_71" xml:space="preserve">
+    <value>永恒的黑暗比曾与我战斗过的一切怪兽都要可怕。如果我不慎摔落，最终会因何而死？饥饿，还是自杀？</value>
+  </data>
+  <data name="LOC_ID_DIARY_72" xml:space="preserve">
+    <value>顺带一说，这道深沟现在也是我的个人卫生间。有点好奇我的便便是不是掉到异世界去了……</value>
+  </data>
+  <data name="LOC_ID_DIARY_73" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_74" xml:space="preserve">
+    <value>日记#12</value>
+  </data>
+  <data name="LOC_ID_DIARY_75" xml:space="preserve">
+    <value>我找到了解决饥饿的方法。森林里有各种各样美味的蘑菇。</value>
+  </data>
+  <data name="LOC_ID_DIARY_76" xml:space="preserve">
+    <value>蘑菇里面还藏着鸡腿！还有金币，甚至还有几瓶气泡水……早些时候我劈开一棵树干，里面掉出了一袋钱。</value>
+  </data>
+  <data name="LOC_ID_DIARY_77" xml:space="preserve">
+    <value>有时我觉得我可能已经疯了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_78" xml:space="preserve">
+    <value>……还有，月亮是怎么回事？怎么那么大！</value>
+  </data>
+  <data name="LOC_ID_DIARY_79" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_8" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_80" xml:space="preserve">
+    <value>日记#13</value>
+  </data>
+  <data name="LOC_ID_DIARY_81" xml:space="preserve">
+    <value>我杀死了森林中的一只怪兽，又一次感到正殿的大门变弱了一分。</value>
+  </data>
+  <data name="LOC_ID_DIARY_82" xml:space="preserve">
+    <value>至今为止，我的推论都是正确的。堡垒的每一侧都有怪兽守护。这是一场意志力的测试吗？那我绝不可能失败，我只会越战越勇！</value>
+  </data>
+  <data name="LOC_ID_DIARY_83" xml:space="preserve">
+    <value>明天，我将开始探索塔楼。我手气正旺呢。</value>
+  </data>
+  <data name="LOC_ID_DIARY_84" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_85" xml:space="preserve">
+    <value>日记#14</value>
+  </data>
+  <data name="LOC_ID_DIARY_86" xml:space="preserve">
+    <value>我一直在不停斩杀房间里的恶魔以寻找下一头守护怪兽，但我已逐渐失去了时间的概念……还有其他东西……</value>
+  </data>
+  <data name="LOC_ID_DIARY_87" xml:space="preserve">
+    <value>好像自从我进入塔楼开始，时间就停止了。或者只是我晕头转向的幻觉？我不喜欢高处……我喜欢吗？</value>
+  </data>
+  <data name="LOC_ID_DIARY_88" xml:space="preserve">
+    <value>我发现我已经越来越难以回忆起自己的过去……</value>
+  </data>
+  <data name="LOC_ID_DIARY_89" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_9" xml:space="preserve">
+    <value>日记#2</value>
+  </data>
+  <data name="LOC_ID_DIARY_90" xml:space="preserve">
+    <value>日记#15</value>
+  </data>
+  <data name="LOC_ID_DIARY_91" xml:space="preserve">
+    <value>我记得我曾经是赫赫有名的冒险家。  我从军的资历超过了我所有的兄弟。我很确定这一点。在他们埋头故纸堆的时候，我四方征战，杀死了不少强盗和怪兽。</value>
+  </data>
+  <data name="LOC_ID_DIARY_92" xml:space="preserve">
+    <value>我总是很好奇，为什么父亲喜爱弟弟们更甚于我？童话故事里不是这么说的吧？</value>
+  </data>
+  <data name="LOC_ID_DIARY_93" xml:space="preserve">
+    <value>天佑勇者。而不是那些书呆子……之类的。</value>
+  </data>
+  <data name="LOC_ID_DIARY_94" xml:space="preserve">
+    <value>老天，我真想看看把剑横在弟弟们脸上时他们苦苦思索的表情啊。</value>
+  </data>
+  <data name="LOC_ID_DIARY_95" xml:space="preserve">
+    <value>王子的日记</value>
+  </data>
+  <data name="LOC_ID_DIARY_96" xml:space="preserve">
+    <value>日记#16</value>
+  </data>
+  <data name="LOC_ID_DIARY_97" xml:space="preserve">
+    <value>我进入这座城堡以来，是不是已经过去了很多年？确实，不断的杀戮磨练了我清理怪物的剑术，但我感觉已经过去好多年了。</value>
+  </data>
+  <data name="LOC_ID_DIARY_98" xml:space="preserve">
+    <value>我甚至已经忘了我的亲人长什么样。</value>
+  </data>
+  <data name="LOC_ID_DIARY_99" xml:space="preserve">
+    <value>如果他们认为我失败了该怎么办？如果我的一个弟弟先于我找到了灵药该怎么办？</value>
+  </data>
+  <data name="LOC_ID_DIARY_ENTRY_SCREEN_1" xml:space="preserve">
+    <value>入口#</value>
+  </data>
+  <data name="LOC_ID_DONATIONBOX_TEXT_1" xml:space="preserve">
+    <value>捐赠 {0} 黄金，并永久为这个BOSS强化你的魔影？\n 强化次数：{1}</value>
+  </data>
+  <data name="LOC_ID_DONATIONBOX_TEXT_2" xml:space="preserve">
+    <value>捐赠箱已满。你的魔影无法再强化了。谢谢你的捐赠。</value>
+  </data>
+  <data name="LOC_ID_DONATIONBOX_TEXT_3" xml:space="preserve">
+    <value>你无法捐赠。等赚了足够的钱再回来。</value>
+  </data>
+  <data name="LOC_ID_DONATIONBOX_TEXT_4" xml:space="preserve">
+    <value>你的魔影变得更强了！</value>
+  </data>
+  <data name="LOC_ID_DONATIONBOX_TITLE_1" xml:space="preserve">
+    <value>捐赠箱</value>
+  </data>
+  <data name="LOC_ID_DUNGEON_NAME_1" xml:space="preserve">
+    <value>哈莫森城堡</value>
+  </data>
+  <data name="LOC_ID_DUNGEON_NAME_2" xml:space="preserve">
+    <value>深渊之地</value>
+  </data>
+  <data name="LOC_ID_DUNGEON_NAME_3" xml:space="preserve">
+    <value>阿布哈兹森林</value>
+  </data>
+  <data name="LOC_ID_DUNGEON_NAME_4" xml:space="preserve">
+    <value>玛雅</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_1" xml:space="preserve">
+    <value>选择一个种类</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_10" xml:space="preserve">
+    <value>所需符文</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_11" xml:space="preserve">
+    <value>此处为购买信息</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_12_NEW" xml:space="preserve">
+    <value>{0}以解锁</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_13" xml:space="preserve">
+    <value>符文</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_5" xml:space="preserve">
+    <value>简介</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_6_NEW" xml:space="preserve">
+    <value>[Input:0]选择/装备</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_7_NEW" xml:space="preserve">
+    <value>[Input:2]取消/关闭菜单</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_8" xml:space="preserve">
+    <value>使用方向键选择</value>
+  </data>
+  <data name="LOC_ID_ENCHANTRESS_SCREEN_9_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]导航</value>
+  </data>
+  <data name="LOC_ID_ENDING_ROOM_OBJ_1" xml:space="preserve">
+    <value>已击杀敌人：</value>
+  </data>
+  <data name="LOC_ID_ENDING_ROOM_OBJ_2_NEW" xml:space="preserve">
+    <value>按下[Input:0]退出</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_1" xml:space="preserve">
+    <value>骷髅</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_10" xml:space="preserve">
+    <value>软泥大王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_100" xml:space="preserve">
+    <value>火花爷爷</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_101" xml:space="preserve">
+    <value>火花领主，火花塔尼亚之王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_102" xml:space="preserve">
+    <value>小丑</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_103" xml:space="preserve">
+    <value>小丑王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_104" xml:space="preserve">
+    <value>小丑皇</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_105" xml:space="preserve">
+    <value>小丑大王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_106" xml:space="preserve">
+    <value>巴巴妥司</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_107" xml:space="preserve">
+    <value>斯托拉斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_108" xml:space="preserve">
+    <value>贝列斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_109" xml:space="preserve">
+    <value>阿蒙</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_11" xml:space="preserve">
+    <value>希罗多德</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_110" xml:space="preserve">
+    <value>弗加洛</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_111" xml:space="preserve">
+    <value>哈法斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_112" xml:space="preserve">
+    <value>尼奥德尔</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_113" xml:space="preserve">
+    <value>亚历山大四世</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_114" xml:space="preserve">
+    <value>阿斯德朗</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_115" xml:space="preserve">
+    <value>庞塞·德弗莱昂</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_116" xml:space="preserve">
+    <value>布拉内斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_117" xml:space="preserve">
+    <value>筒壁炮</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_118" xml:space="preserve">
+    <value>守门人</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_119" xml:space="preserve">
+    <value>无限之主</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_12" xml:space="preserve">
+    <value>链甲骑士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_120" xml:space="preserve">
+    <value>被遗忘者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_121" xml:space="preserve">
+    <value>被遗弃者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_122" xml:space="preserve">
+    <value>守卫者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_123" xml:space="preserve">
+    <value>叛徒</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_124" xml:space="preserve">
+    <value>泉水</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_125" xml:space="preserve">
+    <value>贝列斯与哈法斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_126" xml:space="preserve">
+    <value>巴巴妥司与阿蒙</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_127" xml:space="preserve">
+    <value>斯托拉斯与弗加洛</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_13" xml:space="preserve">
+    <value>锁链甲骑士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_14" xml:space="preserve">
+    <value>锁链铠甲骑士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_15" xml:space="preserve">
+    <value>万神殿</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_16" xml:space="preserve">
+    <value>土巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_17" xml:space="preserve">
+    <value>土地巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_18" xml:space="preserve">
+    <value>大地巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_19" xml:space="preserve">
+    <value>火巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_2" xml:space="preserve">
+    <value>枯骨</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_20" xml:space="preserve">
+    <value>火焰巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_21" xml:space="preserve">
+    <value>烈焰巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_22" xml:space="preserve">
+    <value>日之大法师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_23" xml:space="preserve">
+    <value>冰巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_24" xml:space="preserve">
+    <value>寒冰巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_25" xml:space="preserve">
+    <value>极寒巫师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_26" xml:space="preserve">
+    <value>月之大法师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_27" xml:space="preserve">
+    <value>侦查之眼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_28" xml:space="preserve">
+    <value>注目之眼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_29" xml:space="preserve">
+    <value>幻梦之眼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_3" xml:space="preserve">
+    <value>骨肋</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_30" xml:space="preserve">
+    <value>德尔</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_31" xml:space="preserve">
+    <value>愤怒</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_32" xml:space="preserve">
+    <value>狂怒</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_33" xml:space="preserve">
+    <value>暴怒</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_34" xml:space="preserve">
+    <value>亚历山大</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_35" xml:space="preserve">
+    <value>高大守卫</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_36" xml:space="preserve">
+    <value>巨大守卫</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_37" xml:space="preserve">
+    <value>巨塔守卫</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_38" xml:space="preserve">
+    <value>守卫者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_39" xml:space="preserve">
+    <value>小尖刺球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_4" xml:space="preserve">
+    <value>堕落骑士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_40" xml:space="preserve">
+    <value>中尖刺球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_41" xml:space="preserve">
+    <value>大尖刺球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_42" xml:space="preserve">
+    <value>尖刺者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_43" xml:space="preserve">
+    <value>灰暗骑士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_44" xml:space="preserve">
+    <value>灰暗男爵</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_45" xml:space="preserve">
+    <value>灰暗角斗士</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_46" xml:space="preserve">
+    <value>灰暗之王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_47" xml:space="preserve">
+    <value>座狼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_48" xml:space="preserve">
+    <value>凶恶座狼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_49" xml:space="preserve">
+    <value>巨型座狼</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_5" xml:space="preserve">
+    <value>堕落先锋</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_50" xml:space="preserve">
+    <value>座狼之王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_51" xml:space="preserve">
+    <value>丧尸</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_52" xml:space="preserve">
+    <value>邪恶丧尸</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_53" xml:space="preserve">
+    <value>巨型丧尸</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_54" xml:space="preserve">
+    <value>丧尸之王</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_55" xml:space="preserve">
+    <value>小型晶体</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_56" xml:space="preserve">
+    <value>中型晶体</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_57" xml:space="preserve">
+    <value>大型晶体</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_58" xml:space="preserve">
+    <value>无瑕晶体</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_59" xml:space="preserve">
+    <value>忍者</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_6" xml:space="preserve">
+    <value>堕落领主</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_60" xml:space="preserve">
+    <value>忍法</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_61" xml:space="preserve">
+    <value>忍术家</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_62" xml:space="preserve">
+    <value>忍者大师</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_63" xml:space="preserve">
+    <value>食人花蕾</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_64" xml:space="preserve">
+    <value>食人花苞</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_65" xml:space="preserve">
+    <value>食人花</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_66" xml:space="preserve">
+    <value>小火球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_67" xml:space="preserve">
+    <value>中火球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_68" xml:space="preserve">
+    <value>大火球</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_69" xml:space="preserve">
+    <value>庞塞·德莱昂</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_7" xml:space="preserve">
+    <value>波提斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_70" xml:space="preserve">
+    <value>尖刺陷阱</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_71" xml:space="preserve">
+    <value>弓手</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_72" xml:space="preserve">
+    <value>弓箭手</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_73" xml:space="preserve">
+    <value>狙击手</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_74" xml:space="preserve">
+    <value>神枪手</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_75" xml:space="preserve">
+    <value>约翰内斯</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_76" xml:space="preserve">
+    <value>泉水</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_77" xml:space="preserve">
+    <value>青春之泉</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_78" xml:space="preserve">
+    <value>邪恶帆画</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_79" xml:space="preserve">
+    <value>邪恶油画</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_8" xml:space="preserve">
+    <value>软泥</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_80" xml:space="preserve">
+    <value>邪恶壁画</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_81" xml:space="preserve">
+    <value>塞罗司</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_82" xml:space="preserve">
+    <value>小星镖</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_83" xml:space="preserve">
+    <value>中星镖</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_84" xml:space="preserve">
+    <value>大星镖</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_85" xml:space="preserve">
+    <value>巨型星镖</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_86" xml:space="preserve">
+    <value>肯德基</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_87" xml:space="preserve">
+    <value>鸡块</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_88" xml:space="preserve">
+    <value>炸鸡块</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_89" xml:space="preserve">
+    <value>美味炸鸡块</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_9" xml:space="preserve">
+    <value>软泥怪</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_90" xml:space="preserve">
+    <value>防卫炮塔</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_91" xml:space="preserve">
+    <value>大号防卫炮塔</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_92" xml:space="preserve">
+    <value>防卫炮塔2000</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_93" xml:space="preserve">
+    <value>巨型防卫炮塔</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_94" xml:space="preserve">
+    <value>无头神骏</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_95" xml:space="preserve">
+    <value>暗夜神骏</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_96" xml:space="preserve">
+    <value>噩梦神骏</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_97" xml:space="preserve">
+    <value>彩虹小马</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_98" xml:space="preserve">
+    <value>火花</value>
+  </data>
+  <data name="LOC_ID_ENEMY_NAME_99" xml:space="preserve">
+    <value>火花先生</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_1" xml:space="preserve">
+    <value>跳跃</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_10" xml:space="preserve">
+    <value>诅咒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_11" xml:space="preserve">
+    <value>恩典</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_12" xml:space="preserve">
+    <value>建筑师费用</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_13" xml:space="preserve">
+    <value>NG奖励</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_2" xml:space="preserve">
+    <value>冲刺</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_3" xml:space="preserve">
+    <value>吸血</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_4" xml:space="preserve">
+    <value>浮空</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_5" xml:space="preserve">
+    <value>虹吸</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_6" xml:space="preserve">
+    <value>平衡</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_7" xml:space="preserve">
+    <value>惩戒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_8" xml:space="preserve">
+    <value>赏金</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY2_9" xml:space="preserve">
+    <value>急速</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_1" xml:space="preserve">
+    <value>跳跃</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_10" xml:space="preserve">
+    <value>诅咒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_11" xml:space="preserve">
+    <value>恩典</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_12" xml:space="preserve">
+    <value>建筑师费用</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_13" xml:space="preserve">
+    <value>NG奖励</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_2" xml:space="preserve">
+    <value>冲刺</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_3" xml:space="preserve">
+    <value>吸血</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_4" xml:space="preserve">
+    <value>浮空</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_5" xml:space="preserve">
+    <value>虹吸</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_6" xml:space="preserve">
+    <value>平衡</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_7" xml:space="preserve">
+    <value>惩戒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_8" xml:space="preserve">
+    <value>赏金</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_ABILITY_9" xml:space="preserve">
+    <value>急速</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_1" xml:space="preserve">
+    <value>侍卫</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_10" xml:space="preserve">
+    <value>杀手</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_11" xml:space="preserve">
+    <value>圣徒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_12" xml:space="preserve">
+    <value>血红</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_13" xml:space="preserve">
+    <value>惩戒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_14" xml:space="preserve">
+    <value>神圣</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_15" xml:space="preserve">
+    <value>黑暗</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_2" xml:space="preserve">
+    <value>白银</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_3" xml:space="preserve">
+    <value>守护者</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_4" xml:space="preserve">
+    <value>帝国</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_5" xml:space="preserve">
+    <value>皇室</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_6" xml:space="preserve">
+    <value>骑士</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_7" xml:space="preserve">
+    <value>弓箭手</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_8" xml:space="preserve">
+    <value>浮空</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_9" xml:space="preserve">
+    <value>巨龙</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_BASE_FORMAT" xml:space="preserve">
+    <value>{0}({1})</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_1" xml:space="preserve">
+    <value>手持</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_2" xml:space="preserve">
+    <value>肩部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_3" xml:space="preserve">
+    <value>腕部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_4" xml:space="preserve">
+    <value>头部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_5" xml:space="preserve">
+    <value>胸部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT2_6" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_1" xml:space="preserve">
+    <value>手持</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_2" xml:space="preserve">
+    <value>肩部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_3" xml:space="preserve">
+    <value>四肢</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_4" xml:space="preserve">
+    <value>头部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_5" xml:space="preserve">
+    <value>胸部</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_CAT_6" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_1" xml:space="preserve">
+    <value>赋予你在空中跳跃的能力。可叠加多个符文，获得多次跳跃。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_10" xml:space="preserve">
+    <value>更难对付的敌人，获取奖励更丰厚。可叠加多个符文，提升敌人难度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_11" xml:space="preserve">
+    <value>敌人速度更慢，更容易对付，但奖励较少。可叠加多个符文，降低敌人难度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_2" xml:space="preserve">
+    <value>获得短距离猛冲的能力。可叠加多个符文，获得多次猛冲。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_3" xml:space="preserve">
+    <value>杀死敌人将消耗他们的生命。可叠加多个符文，提升生命消耗能力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_4" xml:space="preserve">
+    <value>获得飞行的能力。可叠加多个符文，延长飞行时间。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_5" xml:space="preserve">
+    <value>从死去的敌人身上抽取法力。可叠加多个符文，提升法力消耗能力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_6" xml:space="preserve">
+    <value>杀死敌人可获得生命值和法力值。可叠加多个符文，提升生命/法力消耗能力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_7" xml:space="preserve">
+    <value>反弹来自敌人的伤害。可叠加多个符文，提升反弹能力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_8" xml:space="preserve">
+    <value>提升从硬币中获得黄金的能力。可叠加多个符文，提升黄金获取能力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_DESC_9" xml:space="preserve">
+    <value>提升你的基础移动速度。可叠加多个符文，提升更多速度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_10" xml:space="preserve">
+    <value>提升敌人难度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_11" xml:space="preserve">
+    <value>降低敌人难度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_1_NEW" xml:space="preserve">
+    <value>在空中按下[Input:10]</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_2_NEW" xml:space="preserve">
+    <value>[Input:14]或[Input:15]以猛冲。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_3" xml:space="preserve">
+    <value>击杀敌人以恢复生命。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_4_NEW" xml:space="preserve">
+    <value>在空中按下[Input:10]</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_5" xml:space="preserve">
+    <value>击杀敌人以恢复法力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_6" xml:space="preserve">
+    <value>击杀敌人以恢复生命和法力。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_7" xml:space="preserve">
+    <value>反弹来自敌人的伤害。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_8" xml:space="preserve">
+    <value>硬币可提供更多黄金。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_INST_9" xml:space="preserve">
+    <value>提升移动速度。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_1" xml:space="preserve">
+    <value>暴击率</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_10" xml:space="preserve">
+    <value>空中猛冲</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_11" xml:space="preserve">
+    <value>格挡</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_12" xml:space="preserve">
+    <value>浮空</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_13" xml:space="preserve">
+    <value>可攻击炮弹</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_14" xml:space="preserve">
+    <value>飞行</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_15" xml:space="preserve">
+    <value>移动速度</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_16" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_2" xml:space="preserve">
+    <value>暴击伤害</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_3" xml:space="preserve">
+    <value>吸血</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_4" xml:space="preserve">
+    <value>黄金奖励</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_5" xml:space="preserve">
+    <value>虹吸</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_6" xml:space="preserve">
+    <value>经验值奖励</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_7" xml:space="preserve">
+    <value>空中攻击</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_8" xml:space="preserve">
+    <value>空中跳跃</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SEC_9" xml:space="preserve">
+    <value>伤害反弹</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_10" xml:space="preserve">
+    <value>在城堡内获得60%的黄金总量。</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_11_NEW" xml:space="preserve">
+    <value>赏金提升{0}%</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_12_NEW" xml:space="preserve">
+    <value>开始时敌人等级提高{0}</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_13_NEW_A" xml:space="preserve">
+    <value>降低{0}敌人侦测单位速率</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_13_NEW_B" xml:space="preserve">
+    <value>降低{0}敌人侦测单位速率</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_1_NEW_A" xml:space="preserve">
+    <value>空中跳跃{0}次</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_1_NEW_B" xml:space="preserve">
+    <value>空中跳跃{0}次</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_2_NEW_A" xml:space="preserve">
+    <value>向上猛冲{0}次</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_2_NEW_B" xml:space="preserve">
+    <value>向上猛冲{0}次</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_3_NEW" xml:space="preserve">
+    <value>每次击杀获得{0}生命</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_4_NEW_A" xml:space="preserve">
+    <value>飞行{0}秒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_4_NEW_B" xml:space="preserve">
+    <value>飞行{0}秒</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_5_NEW" xml:space="preserve">
+    <value>每次击杀获得{0}法力</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_6" xml:space="preserve">
+    <value>魔法生命值</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_7_NEW" xml:space="preserve">
+    <value>被击中后反弹{0}%的伤害</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_8_NEW" xml:space="preserve">
+    <value>增加{0}%的黄金掉落价值</value>
+  </data>
+  <data name="LOC_ID_EQUIPMENT_SHORT_9_NEW" xml:space="preserve">
+    <value>移动速度提升{0}%</value>
+  </data>
+  <data name="LOC_ID_EXIT_ROGUE_LEGACY_OPTIONS_1" xml:space="preserve">
+    <value>退出《盗贼遗产》</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_BOSS_SCREEN_1_NEW" xml:space="preserve">
+    <value>按下[Input:0]继续前进</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_BOSS_SCREEN_3" xml:space="preserve">
+    <value>阳光……我已经忘记了那是什么滋味……</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_BOSS_SCREEN_5_NEW" xml:space="preserve">
+    <value>{0}已经被{1}杀死</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_1_NEW" xml:space="preserve">
+    <value>按下[Input:0]继续前进</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_3_NEW" xml:space="preserve">
+    <value>{0}已经被{1}杀死</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_4_NEW" xml:space="preserve">
+    <value>{0}已经被{1}杀死</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_5_NEW" xml:space="preserve">
+    <value>{0}被流弹击中而死</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_6_NEW" xml:space="preserve">
+    <value>{0}摔倒后被刺穿而死</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_7_NEW" xml:space="preserve">
+    <value>{0}被杀死了</value>
+  </data>
+  <data name="LOC_ID_GAME_OVER_SCREEN_8_NEW" xml:space="preserve">
+    <value>-{0}的遗言</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_1_NEW" xml:space="preserve">
+    <value>[Input:0]继续</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_2" xml:space="preserve">
+    <value>已提升生命</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_3" xml:space="preserve">
+    <value>已提升法力</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_4" xml:space="preserve">
+    <value>已提升力量</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_5" xml:space="preserve">
+    <value>已提升魔法伤害</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_6" xml:space="preserve">
+    <value>已提升护甲</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_7" xml:space="preserve">
+    <value>已提升至最大负重</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_8" xml:space="preserve">
+    <value>奖章达成！</value>
+  </data>
+  <data name="LOC_ID_GET_ITEM_SCREEN_9" xml:space="preserve">
+    <value>你获得了一枚奖章！</value>
+  </data>
+  <data name="LOC_ID_HINT_1" xml:space="preserve">
+    <value>森林总在城堡的右边。</value>
+  </data>
+  <data name="LOC_ID_HINT_10_NEW" xml:space="preserve">
+    <value>浮空符文可帮助你在空中按下[Input:10]飞行。</value>
+  </data>
+  <data name="LOC_ID_HINT_11" xml:space="preserve">
+    <value>吸血符文和虹吸符文叠加后效果拔群。</value>
+  </data>
+  <data name="LOC_ID_HINT_12" xml:space="preserve">
+    <value>掌握机动性符文让你所向披靡。</value>
+  </data>
+  <data name="LOC_ID_HINT_13" xml:space="preserve">
+    <value>别忘了一定要扩建你的庄园。也许会获得意想不到的新技能。</value>
+  </data>
+  <data name="LOC_ID_HINT_14" xml:space="preserve">
+    <value>所有职业都有可以升级的独特职业技能。</value>
+  </data>
+  <data name="LOC_ID_HINT_15_NEW" xml:space="preserve">
+    <value>已解锁的职业天赋可通过[Input:13]激活</value>
+  </data>
+  <data name="LOC_ID_HINT_16" xml:space="preserve">
+    <value>尽早升级你的职业以获得强力职业技能。</value>
+  </data>
+  <data name="LOC_ID_HINT_17" xml:space="preserve">
+    <value>如果一个房间总过不去，不妨试试有没有别的路可以绕。</value>
+  </data>
+  <data name="LOC_ID_HINT_18" xml:space="preserve">
+    <value>提升属性最快的方式是购买装备。</value>
+  </data>
+  <data name="LOC_ID_HINT_19" xml:space="preserve">
+    <value>相比提升基础属性，购买装备获得的属性更便宜也更灵活。</value>
+  </data>
+  <data name="LOC_ID_HINT_2" xml:space="preserve">
+    <value>玛雅总在城堡之上。</value>
+  </data>
+  <data name="LOC_ID_HINT_20" xml:space="preserve">
+    <value>你该选另一个孩子的。</value>
+  </data>
+  <data name="LOC_ID_HINT_21" xml:space="preserve">
+    <value>符文拥有强大的力量。你可以在女巫商店装备符文，别忘了使用它们！</value>
+  </data>
+  <data name="LOC_ID_HINT_22" xml:space="preserve">
+    <value>了解不同法术之间的细微差别，将法术的潜力发挥到极致。</value>
+  </data>
+  <data name="LOC_ID_HINT_23" xml:space="preserve">
+    <value>试着用斧头抛物线的顶点命中敌人，以作出多次攻击。</value>
+  </data>
+  <data name="LOC_ID_HINT_24" xml:space="preserve">
+    <value>在施放聚流法球以获得最大伤害后，不要再把它收回。</value>
+  </data>
+  <data name="LOC_ID_HINT_25" xml:space="preserve">
+    <value>避开飞轮返回的路线以造成最大伤害。</value>
+  </data>
+  <data name="LOC_ID_HINT_26" xml:space="preserve">
+    <value>相比承受不必要的伤害，消耗法力杀死敌人会更好。</value>
+  </data>
+  <data name="LOC_ID_HINT_27" xml:space="preserve">
+    <value>要想在城堡中活下来，了解不同敌人的弱点至关重要。</value>
+  </data>
+  <data name="LOC_ID_HINT_28" xml:space="preserve">
+    <value>尖刺陷阱通过脉搏来辨认活人与亡者。</value>
+  </data>
+  <data name="LOC_ID_HINT_29_NEW" xml:space="preserve">
+    <value>按下[Input:9]打开地图。</value>
+  </data>
+  <data name="LOC_ID_HINT_3" xml:space="preserve">
+    <value>深渊总在城堡之下。</value>
+  </data>
+  <data name="LOC_ID_HINT_30" xml:space="preserve">
+    <value>精灵宝箱中装着游戏中的所有符文。符文可为你提供强大辅助。</value>
+  </data>
+  <data name="LOC_ID_HINT_31" xml:space="preserve">
+    <value>如果你未能通过一个精灵宝箱房间，建筑师可为你提供第二次机会。</value>
+  </data>
+  <data name="LOC_ID_HINT_32" xml:space="preserve">
+    <value>但是建筑师会收取高额的费用。</value>
+  </data>
+  <data name="LOC_ID_HINT_33" xml:space="preserve">
+    <value>Boss死后会掉落大量黄金。</value>
+  </data>
+  <data name="LOC_ID_HINT_34" xml:space="preserve">
+    <value>用黄金把我埋了吧。</value>
+  </data>
+  <data name="LOC_ID_HINT_35" xml:space="preserve">
+    <value>如果遇到了困难，试试装备恩典符文。</value>
+  </data>
+  <data name="LOC_ID_HINT_36_NEW" xml:space="preserve">
+    <value>在选项中，你可启用快速下降进行向下攻击并带着[Input:18]下降</value>
+  </data>
+  <data name="LOC_ID_HINT_37" xml:space="preserve">
+    <value>练习对阵Boss时，建筑师非常有用。</value>
+  </data>
+  <data name="LOC_ID_HINT_38" xml:space="preserve">
+    <value>第三行装备通常需要牺牲大量属性。请注意。</value>
+  </data>
+  <data name="LOC_ID_HINT_39" xml:space="preserve">
+    <value>某些符文针对某些Boss特别有效。</value>
+  </data>
+  <data name="LOC_ID_HINT_4" xml:space="preserve">
+    <value>如果总打不过Boss，换一个符文试试。</value>
+  </data>
+  <data name="LOC_ID_HINT_40" xml:space="preserve">
+    <value>你应该多试试通过建筑师练习对阵Boss。</value>
+  </data>
+  <data name="LOC_ID_HINT_41" xml:space="preserve">
+    <value>提升生命属性很重要。</value>
+  </data>
+  <data name="LOC_ID_HINT_42" xml:space="preserve">
+    <value>惩戒符文可摧毁无敌的对象。</value>
+  </data>
+  <data name="LOC_ID_HINT_43" xml:space="preserve">
+    <value>正确使用职业技能可发挥巨大的威力。</value>
+  </data>
+  <data name="LOC_ID_HINT_44" xml:space="preserve">
+    <value>某些职业针对特定Boss特别有效。</value>
+  </data>
+  <data name="LOC_ID_HINT_5_NEW" xml:space="preserve">
+    <value>跳跃符文赋予你在空中带着[Input:10]跳跃的能力。</value>
+  </data>
+  <data name="LOC_ID_HINT_6" xml:space="preserve">
+    <value>冲刺符文能让你带着[Input:PLAYER_DASHLEFT]或[Input:PLAYER_DASHRIGHT]冲刺</value>
+  </data>
+  <data name="LOC_ID_HINT_7" xml:space="preserve">
+    <value>不同职业各有其优劣，记住根据职业改变打法。</value>
+  </data>
+  <data name="LOC_ID_HINT_8" xml:space="preserve">
+    <value>探索和发现宝箱是获取金币的最佳方式。</value>
+  </data>
+  <data name="LOC_ID_HINT_9" xml:space="preserve">
+    <value>越困难的区域，奖励越丰厚。</value>
+  </data>
+  <data name="LOC_ID_INTRO_ROOM_OBJ_1" xml:space="preserve">
+    <value>我的职责是照顾我的家人……</value>
+  </data>
+  <data name="LOC_ID_INTRO_ROOM_OBJ_2" xml:space="preserve">
+    <value>但我只忠诚于自己。</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_1" xml:space="preserve">
+    <value>黄金</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_2" xml:space="preserve">
+    <value>生命值已恢复</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_3" xml:space="preserve">
+    <value>法力值已恢复</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_4" xml:space="preserve">
+    <value>护甲提升</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_5" xml:space="preserve">
+    <value>最大生命值提升</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_6" xml:space="preserve">
+    <value>最大法力值提升</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_7" xml:space="preserve">
+    <value>攻击提升</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_8" xml:space="preserve">
+    <value>魔法提升</value>
+  </data>
+  <data name="LOC_ID_ITEM_DROP_OBJ_9" xml:space="preserve">
+    <value>最大负重提升</value>
+  </data>
+  <data name="LOC_ID_JUKEBOX_BONUS_ROOM_1" xml:space="preserve">
+    <value>正在游戏</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_1" xml:space="preserve">
+    <value>正在进入</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_2" xml:space="preserve">
+    <value>精灵宝箱目标：</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_3" xml:space="preserve">
+    <value>在15秒内到达宝箱：</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_4" xml:space="preserve">
+    <value>剩余时间：</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_5" xml:space="preserve">
+    <value>目标达成！</value>
+  </data>
+  <data name="LOC_ID_LEVEL_SCREEN_6" xml:space="preserve">
+    <value>目标失败</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_1" xml:space="preserve">
+    <value>无特性</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_10_NEW" xml:space="preserve">
+    <value>英雄的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_11_NEW" xml:space="preserve">
+    <value>神圣的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_12_NEW" xml:space="preserve">
+    <value>{0}先生{1}世</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_12_NEW_SINGULAR_ZH" xml:space="preserve">
+    <value>{0}先生</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_13" xml:space="preserve">
+    <value>先生</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_14_NEW" xml:space="preserve">
+    <value>{0}女士{1}世</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_14_NEW_SINGULAR_ZH" xml:space="preserve">
+    <value>{0}女士</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_15" xml:space="preserve">
+    <value>女士</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_2_MALE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_3_NEW" xml:space="preserve">
+    <value>传奇的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_4_NEW" xml:space="preserve">
+    <value>无用的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_5_NEW" xml:space="preserve">
+    <value>虚弱的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_6_NEW" xml:space="preserve">
+    <value>果决的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_7_NEW" xml:space="preserve">
+    <value>壮实的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_8_NEW" xml:space="preserve">
+    <value>英勇的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_OBJ_9_NEW" xml:space="preserve">
+    <value>勇猛的{0}</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_1_NEW" xml:space="preserve">
+    <value>[Input:0]选择后代</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_2_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]查看家谱</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_3" xml:space="preserve">
+    <value>使用方向键查看家谱</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_4_NEW" xml:space="preserve">
+    <value>[Input:9]更换一次后代</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_5" xml:space="preserve">
+    <value>职业</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_6" xml:space="preserve">
+    <value>特性</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_7" xml:space="preserve">
+    <value>特性 - 无</value>
+  </data>
+  <data name="LOC_ID_LINEAGE_SCREEN_8" xml:space="preserve">
+    <value>法术</value>
+  </data>
+  <data name="LOC_ID_LOADING_SCREEN_1" xml:space="preserve">
+    <value>建筑</value>
+  </data>
+  <data name="LOC_ID_LOADING_SCREEN_2" xml:space="preserve">
+    <value>谢顶</value>
+  </data>
+  <data name="LOC_ID_LOADING_SCREEN_3" xml:space="preserve">
+    <value>追忆</value>
+  </data>
+  <data name="LOC_ID_LOADING_SCREEN_4" xml:space="preserve">
+    <value>放弃</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_10" xml:space="preserve">
+    <value>已开启宝箱</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_11" xml:space="preserve">
+    <value>传送标记</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_12" xml:space="preserve">
+    <value>奖励房间</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_1_NEW" xml:space="preserve">
+    <value>[Input:9]关闭地图</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_2_NEW" xml:space="preserve">
+    <value>[Input:0]玩家焦点</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_3" xml:space="preserve">
+    <value>使用方向键移动地图</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_4_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]移动地图</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_5" xml:space="preserve">
+    <value>传说</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_6" xml:space="preserve">
+    <value>你的位置</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_7" xml:space="preserve">
+    <value>Boss位置</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_8" xml:space="preserve">
+    <value>未开启宝箱</value>
+  </data>
+  <data name="LOC_ID_MAP_SCREEN_9" xml:space="preserve">
+    <value>精灵宝箱</value>
+  </data>
+  <data name="LOC_ID_MUSICVOL_OPTIONS_1" xml:space="preserve">
+    <value>音乐音量</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_CHINESE" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_ENGLISH" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_FRENCH" xml:space="preserve">
+    <value>法语</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_GERMAN" xml:space="preserve">
+    <value>德语</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_POLISH" xml:space="preserve">
+    <value>波兰语</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_PORTUGUESE" xml:space="preserve">
+    <value>葡萄牙语（巴西）</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_RUSSIAN" xml:space="preserve">
+    <value>俄语</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_SPANISH" xml:space="preserve">
+    <value>西班牙语（西班牙）</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_LANGUAGE_TITLE" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_1" xml:space="preserve">
+    <value>*快速下降可让你跳下平台，并通过向下键在空中\n进行向下攻击</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_10" xml:space="preserve">
+    <value>分辨率</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_11" xml:space="preserve">
+    <value>全屏</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_12" xml:space="preserve">
+    <value>降低阴影品质</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_13" xml:space="preserve">
+    <value>使用Dinput手柄</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_14" xml:space="preserve">
+    <value>启用Steam云</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_2_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]导航选项</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_3" xml:space="preserve">
+    <value>使用方向键选择选项</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_4_NEW" xml:space="preserve">
+    <value>[Input:0]选择选项</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_5_NEW" xml:space="preserve">
+    <value>[Input:2]退出选项</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_8" xml:space="preserve">
+    <value>*游戏必须重启后才能应用此更改。</value>
+  </data>
+  <data name="LOC_ID_OPTIONS_SCREEN_9" xml:space="preserve">
+    <value>*必须同时在Steam平台上启用云支持才可\n使该特性发挥作用。</value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_1" xml:space="preserve">
+    <value>职业： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_2" xml:space="preserve">
+    <value>力量： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_3" xml:space="preserve">
+    <value>法力： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_4" xml:space="preserve">
+    <value>护甲： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_5" xml:space="preserve">
+    <value>等级： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_6" xml:space="preserve">
+    <value>生命： </value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_7" xml:space="preserve">
+    <value>Xbox One无线手柄已断开连接。请重新连接。</value>
+  </data>
+  <data name="LOC_ID_PAUSE_SCREEN_8" xml:space="preserve">
+    <value>?????</value>
+  </data>
+  <data name="LOC_ID_PLAYER_OBJ_1" xml:space="preserve">
+    <value>黄金</value>
+  </data>
+  <data name="LOC_ID_PLAYER_OBJ_2" xml:space="preserve">
+    <value>最大法力值</value>
+  </data>
+  <data name="LOC_ID_PLAYER_OBJ_3" xml:space="preserve">
+    <value>最大生命值</value>
+  </data>
+  <data name="LOC_ID_PLAYER_OBJ_4" xml:space="preserve">
+    <value>已转换最大法力值。需要更高等级。</value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_1" xml:space="preserve">
+    <value>全金属狂怒\n开发耗时：4年。\n发布日期：2018年1月17日</value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_2" xml:space="preserve">
+    <value>来自未来世界的全金属狂怒！  继Rogue Legacy(《盗贼遗产》)后的又一佳作，也是我们开发的第十款游戏。  </value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_3" xml:space="preserve">
+    <value>在 RL 之后，我们暗自发誓，绝不在没有计划的情况下再做一个游戏。  可是事与愿违。  真是人算不如天算！</value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_4" xml:space="preserve">
+    <value>此游戏是我们有史以来耗费时间和精力最多的项目，是集争霸战/多人玩家/超级谜题/富有年代的迪斯科风格为一体的‘大乱炖’，玩的时间越长，你就会发现这完全颠覆了传统意义上的争霸战游戏。  </value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_5" xml:space="preserve">
+    <value>全金属狂怒的开发花了我们4年的时间，是我们耗费开发时间最长的游戏，可笑的是，此游戏却是所有开发项目中回报最低的。  （除了那些收益不佳的 IOS 游戏，只能说啪啪打脸了！）</value>
+  </data>
+  <data name="LOC_ID_PORTRAIT_TEXT_NEW_6" xml:space="preserve">
+    <value>但是，我们仍然为我们所创造的结晶感到自豪，也为一路上陪伴我们的朋友感到骄傲。  啊啊啊啊啊啊！！！ </value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_1" xml:space="preserve">
+    <value>生命</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_10" xml:space="preserve">
+    <value>附魔</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_11_NEW" xml:space="preserve">
+    <value>[Input:2]退出</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_12" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_2" xml:space="preserve">
+    <value>法力</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_3" xml:space="preserve">
+    <value>护甲</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_4" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_5" xml:space="preserve">
+    <value>力量</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_6" xml:space="preserve">
+    <value>智力</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_7" xml:space="preserve">
+    <value>暴击率</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_8" xml:space="preserve">
+    <value>暴击伤害</value>
+  </data>
+  <data name="LOC_ID_PROFILE_CARD_SCREEN_9" xml:space="preserve">
+    <value>装备</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_1" xml:space="preserve">
+    <value>100%基础属性。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_10" xml:space="preserve">
+    <value>特殊技能：野蛮人之吼。\n大量生命值。  力量值和法力值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_11_NEW" xml:space="preserve">
+    <value>力量值较高，但不可暴击。\n+{0}%移动速度。  生命值和法力值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_12_NEW" xml:space="preserve">
+    <value>特殊技能：替身瞬移。\n力量值较高，但不可暴击。\n+{0}%移动速度。  生命值和法力值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_13_NEW" xml:space="preserve">
+    <value>{0}%的伤害转化为法力。\n生命值、法力值和力量值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_14_NEW" xml:space="preserve">
+    <value>特殊技能：强化法术。\n{0}%的伤害转化为法力。\n生命值、法力值和力量值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_15" xml:space="preserve">
+    <value>击杀转化为最大生命值。\n生命值、法力值和力量值极低。  智力值极高。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_16" xml:space="preserve">
+    <value>特殊技能：生命转换。\n击杀转化为最大生命值。\n生命值、法力值和力量值极低。  智力值极高。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_17" xml:space="preserve">
+    <value>你是一名龙人</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_18" xml:space="preserve">
+    <value>?????</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_2" xml:space="preserve">
+    <value>特殊技能：守护者之盾\n100%基础属性。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_3_NEW" xml:space="preserve">
+    <value>+{0}%暴击率，+{1}%暴击伤害。\n生命值、法力值和力量值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_4_NEW" xml:space="preserve">
+    <value>特殊技能：迷雾形态\n+{0}%暴击率，+{1}%暴击伤害。\n生命值、法力值和力量值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_5_NEW" xml:space="preserve">
+    <value>+{0}%黄金获取。\n其他属性极弱。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_6_NEW" xml:space="preserve">
+    <value>特殊技能：普通矿灯。\n+{0}%黄金获取。\n其他属性极弱。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_7_NEW" xml:space="preserve">
+    <value>每次击杀会{0}恢复法力。\n力量值和生命值较低。  智力值和法力值较高。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_8_NEW" xml:space="preserve">
+    <value>特殊技能：法术切换。\n每次击杀会{0}恢复法力。\n力量值和生命值较低。  智力值和法力值较高。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_DESC_9" xml:space="preserve">
+    <value>大量生命值。  力量值和法力值较低。</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_1" xml:space="preserve">
+    <value>-开启新的遗产-</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_10" xml:space="preserve">
+    <value>NG+</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_2_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]导航</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_3" xml:space="preserve">
+    <value>使用方向键选择人物</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_4_NEW" xml:space="preserve">
+    <value>[Input:0]选择</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_5_NEW" xml:space="preserve">
+    <value>[Input:2]退出</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_6_NEW" xml:space="preserve">
+    <value>[Input:26]删除</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_7_FEMALE_NEW" xml:space="preserve">
+    <value>{1}{0}</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_7_MALE_NEW" xml:space="preserve">
+    <value>{1} {0}</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_8_FEMALE_NEW" xml:space="preserve">
+    <value>已故{0}</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_8_MALE_NEW" xml:space="preserve">
+    <value>已故{0}</value>
+  </data>
+  <data name="LOC_ID_PROFILE_SEL_SCREEN_9" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="LOC_ID_QUICKDROP_OPTIONS_1" xml:space="preserve">
+    <value>启用快速下降</value>
+  </data>
+  <data name="LOC_ID_QUICKDROP_OPTIONS_2" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="LOC_ID_QUICKDROP_OPTIONS_3" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="LOC_ID_RUNE_BASE_FORMAT" xml:space="preserve">
+    <value>{0}({1})</value>
+  </data>
+  <data name="LOC_ID_SFXVOL_OPTIONS_1" xml:space="preserve">
+    <value>音效音量</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_1" xml:space="preserve">
+    <value>改进你的有氧锻炼。心脏好，生命值就高。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_10" xml:space="preserve">
+    <value>解锁铁匠，获得炫酷的战利品。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_11" xml:space="preserve">
+    <value>解锁女巫，掌控魔法符文之力。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_12" xml:space="preserve">
+    <value>解锁建筑师，获得锁定城堡的力量。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_13" xml:space="preserve">
+    <value>升级你的负重能力可让你穿上更好、更重的护甲。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_14" xml:space="preserve">
+    <value>通过自然的方式锻炼你的内在，减少受到的伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_15" xml:space="preserve">
+    <value>提升拾取技能，为你的钱袋再添一笔。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_16" xml:space="preserve">
+    <value>学会与死神打交道，少付一些卡戎的船费。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_17" xml:space="preserve">
+    <value>肠道清洁可带来药水和肉类方面的显著提升。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_18" xml:space="preserve">
+    <value>利用科技的力量，制造一批全新的后代。嗯……还是别问了。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_19" xml:space="preserve">
+    <value>解放巫妖的力量！拥有恐怖潜力的存在。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_2" xml:space="preserve">
+    <value>强化你的肾上腺，像毒药一样无懈可击。放马过来！</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_20" xml:space="preserve">
+    <value>解锁矿工的技能，继续积攒你的家族财富。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_21" xml:space="preserve">
+    <value>解锁魔盗，成为一名近战法师。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_22" xml:space="preserve">
+    <value>解锁忍者，最迅捷的斗士。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_23" xml:space="preserve">
+    <value>学习基础知识，减少施放法术时的魔耗。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_24" xml:space="preserve">
+    <value>将你的骑士转化为圣骑士。冲锋陷阵的勇猛战士。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_25" xml:space="preserve">
+    <value>解锁法师的潜在力量，成为全知全能的大法师。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_26" xml:space="preserve">
+    <value>学习黑暗的技艺，将无赖变为刺客。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_27" xml:space="preserve">
+    <value>攻读地质学学位，由矿工转为勘探者。挺不错嘛。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_28" xml:space="preserve">
+    <value>成为蛮王。  自由民的国王。这话讲不通啊。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_29" xml:space="preserve">
+    <value>提升你强大的巫妖，让他们变为巫妖王。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_3" xml:space="preserve">
+    <value>释放你的猫之灵魂，躲开死亡的追捕。有时候吧。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_30" xml:space="preserve">
+    <value>成为村中的领袖，将忍者变为火影。信不信由你！</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_31" xml:space="preserve">
+    <value>驾驭魔法的漩涡，将魔盗变为魔剑士。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_32" xml:space="preserve">
+    <value>半人，半******，两者合一，完美。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_33" xml:space="preserve">
+    <value>快速呼吸\n你的呼吸很重。  不利于跟踪，却利于赶路！\n\n提升你的天然耐力恢复。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_34" xml:space="preserve">
+    <value>你在年轻时就被注入了猛虎的血液。  在被刺伤时，你将发挥出猛虎之血的力量。\n奔跑消耗的耐力较少。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_35" xml:space="preserve">
+    <value>你拥有维京血统。  \n\n提升你的初始耐力。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_36" xml:space="preserve">
+    <value>你起床很早。升级就像早起。\n你每次升级都可获得额外的生命值和法力值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_37" xml:space="preserve">
+    <value>你的指尖天生凝聚魔力。\n所有法术造成更大伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_38" xml:space="preserve">
+    <value>你的血脉天生法力沸腾。  哎呀。\n施放法术的消耗较低。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_39" xml:space="preserve">
+    <value>强迫症总算是有点儿用处。\n获得更多黄金。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_4" xml:space="preserve">
+    <value>恰当的锻炼能强化你的手臂和臀部肌肉。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_40" xml:space="preserve">
+    <value>根据法律，你拥有最好的基因。\n可生下更多后代。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_41" xml:space="preserve">
+    <value>你的父母曾说农民学习淘金没有任何用处。  现在呢？\n在游戏开始时显示藏宝房间的位置。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_42" xml:space="preserve">
+    <value>战争即是地狱。  幸运的是你却不在其中。\n射出更多炮弹。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_43" xml:space="preserve">
+    <value>你从小就表现出对爆破的兴趣。\n炸弹的爆破范围更大。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_44" xml:space="preserve">
+    <value>你的曾祖父是个雪人。  屁用没有。\n冰锥可刺穿更多敌人。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_45" xml:space="preserve">
+    <value>你充满禅意。\n静止时可更快回复耐力。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_46" xml:space="preserve">
+    <value>通用技能。  提升耐力最大值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_47" xml:space="preserve">
+    <value>你剑术绝伦\n攻击时耐力消耗减少X%。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_48" xml:space="preserve">
+    <value>通用技能。  提升生命值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_49" xml:space="preserve">
+    <value>你吸……血。\n每次攻击可恢复少量生命。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_5" xml:space="preserve">
+    <value>弹簧高跷锻炼室自有其用处。连续向下攻击可造成更多伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_50" xml:space="preserve">
+    <value>像基督耶稣一样复活。就算会复活，你也不是耶稣。\n死后可复活一次。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_51" xml:space="preserve">
+    <value>清空房间就像清空大脑。  我完全不知道该怎么做。\n彻底扫荡一个房间后可恢复生命。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_52" xml:space="preserve">
+    <value>绘图/n每次打开1%的地图可增加0.1伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_53" xml:space="preserve">
+    <value>通用技能。  提升攻击伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_54" xml:space="preserve">
+    <value>你是个超级超级输不起的人。\n死亡时对全屏所有敌人造成巨额伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_55" xml:space="preserve">
+    <value>你明白了击球会造成巨额伤害。\n暴击可造成更大伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_56" xml:space="preserve">
+    <value>通用技能。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_57" xml:space="preserve">
+    <value>噢。它们在我的后边口袋里。\n获得2把额外的钥匙。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_58" xml:space="preserve">
+    <value>你像凤凰一样从灰烬中重生。\n恢复所有生命值和法力值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_59" xml:space="preserve">
+    <value>退休后，好好规划你的投资。  尽早结束游戏，退步抽身。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_6" xml:space="preserve">
+    <value>了解敌人的弱点可帮助你更有效率地作出致命一击。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_60" xml:space="preserve">
+    <value>吨吨吨吨！\n可瞬间喝下药水。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_7" xml:space="preserve">
+    <value>不断练习，造成更多致命伤害。敌人无处可逃。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_8" xml:space="preserve">
+    <value>学习宇宙的奥秘，使用自然的法力杀死敌人。</value>
+  </data>
+  <data name="LOC_ID_SKILL_DESC_9" xml:space="preserve">
+    <value>锻炼坚毅的内心，提升最大法力值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_18" xml:space="preserve">
+    <value>按下[Input:9]随机选择后代</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_24" xml:space="preserve">
+    <value>按下[Input:13]格挡所有后续伤害。</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_25" xml:space="preserve">
+    <value>按下[Input:13]切换法术</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_26" xml:space="preserve">
+    <value>按下[Input:13]切换为迷雾形态</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_27" xml:space="preserve">
+    <value>按下[Input:13]开启矿灯</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_28" xml:space="preserve">
+    <value>按下[Input:13]释放远古吼叫，震飞全屏。</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_29" xml:space="preserve">
+    <value>按下[Input:13]将最大生命值转化为最大法力值</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_30" xml:space="preserve">
+    <value>按下[Input:13]闪现</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_31" xml:space="preserve">
+    <value>按下[Input:13]施放强化法术</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_32" xml:space="preserve">
+    <value>按下[Input:10]释放技能。</value>
+  </data>
+  <data name="LOC_ID_SKILL_INPUT_SPACE" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_1" xml:space="preserve">
+    <value>生命提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_10" xml:space="preserve">
+    <value>铁匠</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_11" xml:space="preserve">
+    <value>女巫</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_12" xml:space="preserve">
+    <value>建筑师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_13" xml:space="preserve">
+    <value>装备提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_14" xml:space="preserve">
+    <value>护甲提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_15" xml:space="preserve">
+    <value>黄金获取提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_16" xml:space="preserve">
+    <value>讨价还价</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_17" xml:space="preserve">
+    <value>药水提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_18" xml:space="preserve">
+    <value>随机后代</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_19" xml:space="preserve">
+    <value>解锁巫妖</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_2" xml:space="preserve">
+    <value>无敌时间提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_20" xml:space="preserve">
+    <value>解锁矿工</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_21" xml:space="preserve">
+    <value>解锁魔盗</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_22" xml:space="preserve">
+    <value>解锁忍者</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_23" xml:space="preserve">
+    <value>降低魔耗</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_24" xml:space="preserve">
+    <value>升级骑士</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_25" xml:space="preserve">
+    <value>升级法师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_26" xml:space="preserve">
+    <value>升级无赖</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_27" xml:space="preserve">
+    <value>升级矿工</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_28" xml:space="preserve">
+    <value>升级野蛮人</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_29" xml:space="preserve">
+    <value>升级巫妖</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_3" xml:space="preserve">
+    <value>死亡蔑视</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_30" xml:space="preserve">
+    <value>升级忍者</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_31" xml:space="preserve">
+    <value>升级魔盗</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_32" xml:space="preserve">
+    <value>兽行</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_33" xml:space="preserve">
+    <value>快速呼吸</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_34" xml:space="preserve">
+    <value>奔跑健将</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_35" xml:space="preserve">
+    <value>勇敢的心</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_36" xml:space="preserve">
+    <value>徘徊门外</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_37" xml:space="preserve">
+    <value>魔剑士</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_38" xml:space="preserve">
+    <value>术士</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_39" xml:space="preserve">
+    <value>完美主义者</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_4" xml:space="preserve">
+    <value>攻击提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_40" xml:space="preserve">
+    <value>名门贵胄</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_41" xml:space="preserve">
+    <value>宝藏猎人</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_42" xml:space="preserve">
+    <value>弹药大师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_43" xml:space="preserve">
+    <value>爆破专家</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_44" xml:space="preserve">
+    <value>冰锥</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_45" xml:space="preserve">
+    <value>宗师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_46" xml:space="preserve">
+    <value>铁肺</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_47" xml:space="preserve">
+    <value>剑圣</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_48" xml:space="preserve">
+    <value>坦克</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_49" xml:space="preserve">
+    <value>吸血鬼</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_5" xml:space="preserve">
+    <value>向下攻击提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_50" xml:space="preserve">
+    <value>第二次机会</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_51" xml:space="preserve">
+    <value>心平气和</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_52" xml:space="preserve">
+    <value>绘图忍者</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_53" xml:space="preserve">
+    <value>更强的人</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_54" xml:space="preserve">
+    <value>自杀主义者</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_55" xml:space="preserve">
+    <value>暴击野蛮人</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_56" xml:space="preserve">
+    <value>魔法师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_57" xml:space="preserve">
+    <value>开锁大师</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_58" xml:space="preserve">
+    <value>仅此一次</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_59" xml:space="preserve">
+    <value>急流勇退</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_6" xml:space="preserve">
+    <value>暴击率提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_60" xml:space="preserve">
+    <value>一饮而尽</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_7" xml:space="preserve">
+    <value>暴击伤害提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_8" xml:space="preserve">
+    <value>魔法伤害提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_NAME_9" xml:space="preserve">
+    <value>法力提升</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_10_NEW" xml:space="preserve">
+    <value>{0}黄金以{1}</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_11" xml:space="preserve">
+    <value>解锁</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_12" xml:space="preserve">
+    <value>升级</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_13" xml:space="preserve">
+    <value>重量</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_14" xml:space="preserve">
+    <value>生命</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_15" xml:space="preserve">
+    <value>法力</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_16" xml:space="preserve">
+    <value>力量</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_17" xml:space="preserve">
+    <value>智力</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_18" xml:space="preserve">
+    <value>生命/法力</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_19" xml:space="preserve">
+    <value>最大</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_1_NEW" xml:space="preserve">
+    <value>[Input:0]购买/升级特性</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_20" xml:space="preserve">
+    <value>护甲</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_21" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_2_NEW" xml:space="preserve">
+    <value>[Input:9]切换关闭图标</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_3_NEW" xml:space="preserve">
+    <value>[Input:2]离开庄园</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_4_NEW" xml:space="preserve">
+    <value>[Button:LeftStick]导航技能</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_5" xml:space="preserve">
+    <value>使用方向键选择技能</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_6_NEW" xml:space="preserve">
+    <value>[Input:9]切换开启图标</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_7" xml:space="preserve">
+    <value>当前</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_8" xml:space="preserve">
+    <value>升级</value>
+  </data>
+  <data name="LOC_ID_SKILL_SCREEN_9" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_1" xml:space="preserve">
+    <value>铁匠可为你打造世界上最精良的武器，让你成为令敌人闻风丧胆的恶棍克星。\n收集更多图纸，他会为你的兵器库增添更多武器藏品。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_10" xml:space="preserve">
+    <value>将你的野蛮人转化为蛮王/蛮后！学习巨熊咆哮的秘术，粉碎阻拦你的一切。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_11" xml:space="preserve">
+    <value>从卑微的忍者变成火影！掌握在被击中的最后一刻替身成为木头的伟大忍术。  幸好随身带的木头还够用。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_12" xml:space="preserve">
+    <value>将你的无赖转化为刺客。借助暗影的力量，悄无声息地掠过敌人的队伍。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_13" xml:space="preserve">
+    <value>长年累月的挖掘让你的矿工成为一名勘探者！现在，你头顶那束刺眼的光芒总算发挥了点作用！（骗你的。）</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_14" xml:space="preserve">
+    <value>将你的魔盗转化为魔剑士，赋予你强化法术的力量。\n你管那叫斧头？那确实是斧头。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_15" xml:space="preserve">
+    <value>将你的巫妖转化为巫妖王，掌控物质与精神之力！轻轻一点，将你的最大生命值转化为最大法力值。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_16" xml:space="preserve">
+    <value>你找到了失传已久的龙之技艺。尽管你无法跳跃，但你可以自由飞行，还可以向敌人喷射强力火球。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_17" xml:space="preserve">
+    <value>你找到了只有“叛徒约翰内斯”才知道的失传技艺。让万物臣服于你！</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_2" xml:space="preserve">
+    <value>女巫可使用魔法符文为你强化身体，让你更好、更快、更强、跳得更远。\n寻找更多符文释放她的身体改造实力。\n\n她的水晶球只是为了好看罢了。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_3" xml:space="preserve">
+    <value>建筑师可为你锁定城堡地形，阻止变化。\n\n喜欢城堡的地形？\n锁定它！\n只要你付得起建筑师的出场费。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_4" xml:space="preserve">
+    <value>忍者。头系额带，迅捷无比的死亡杀手。他们不能承受太多打击，但可以将痛苦带给敌人。信不信由你！</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_5" xml:space="preserve">
+    <value>学习赚钱的艺术，然后才是杀死敌人。矿工最适合扫荡城堡里的宝箱，避免正面交锋。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_6" xml:space="preserve">
+    <value>魔盗通过攻击敌人消耗他们的法力。这一能力使得他们能够在战斗中拥有无限的法力补给。嗨起来！</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_7" xml:space="preserve">
+    <value>生与死的主宰。巫妖拥有巨大的潜力。每次击杀可提升巫妖的最大生命值（有上限），令人恐惧的存在。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_8" xml:space="preserve">
+    <value>将你的骑士转化为圣骑士。在经历艰苦的锻炼后，圣骑士学会了如何格挡来自各个方向的攻击。</value>
+  </data>
+  <data name="LOC_ID_SKILL_UNLOCK_9" xml:space="preserve">
+    <value>将你卑微的法师转化为大法师。一切奥术魔法的集大成者，可改变任何正在施放的法术。</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_1" xml:space="preserve">
+    <value>海伯利安的指环</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_10" xml:space="preserve">
+    <value>庞塞·德莱昂的银币</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_11" xml:space="preserve">
+    <value>希罗多德的银币</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_12" xml:space="preserve">
+    <value>叛徒的银币</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_2" xml:space="preserve">
+    <value>赫耳墨斯的靴子</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_3" xml:space="preserve">
+    <value>刺猬的诅咒</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_4" xml:space="preserve">
+    <value>卡戎的银币</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_5" xml:space="preserve">
+    <value>海中女神的罗盘</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_6" xml:space="preserve">
+    <value>赫利俄斯的赐福</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_7" xml:space="preserve">
+    <value>书呆子的眼镜</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_8" xml:space="preserve">
+    <value>德尔的银币</value>
+  </data>
+  <data name="LOC_ID_SPECIAL_ITEM_TYPE_9" xml:space="preserve">
+    <value>亚历山大的银币</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_1" xml:space="preserve">
+    <value>向你面前投出一把匕首。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_10" xml:space="preserve">
+    <value>召唤一把剑刃保护你。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_11" xml:space="preserve">
+    <value>召唤一道火焰保护你。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_12" xml:space="preserve">
+    <value>投掷到处弹跳的法球。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_13" xml:space="preserve">
+    <value>发出一道射线，所到之处无人幸免。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_14" xml:space="preserve">
+    <value>向敌人喷出火球。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_15" xml:space="preserve">
+    <value>投出一连串的匕首</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_2" xml:space="preserve">
+    <value>向前弧线掷出一把巨斧。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_3" xml:space="preserve">
+    <value>召唤一颗片刻后爆炸的炸弹。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_4" xml:space="preserve">
+    <value>冻结全屏的敌人。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_5" xml:space="preserve">
+    <value>攻击全屏的敌人。花费甚巨。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_6" xml:space="preserve">
+    <value>召唤并传送到你的影子。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_7" xml:space="preserve">
+    <value>释放一个传送标记。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_8" xml:space="preserve">
+    <value>投出一把会飞回来的飞轮。</value>
+  </data>
+  <data name="LOC_ID_SPELL_DESC_9" xml:space="preserve">
+    <value>召唤一把从头上斩下的镰刀。</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_1" xml:space="preserve">
+    <value>投匕</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_10" xml:space="preserve">
+    <value>剑刃之墙</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_11" xml:space="preserve">
+    <value>怒火屏障</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_12" xml:space="preserve">
+    <value>聚流</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_13" xml:space="preserve">
+    <value>激.光.射.线</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_14" xml:space="preserve">
+    <value>龙之吐息</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_15" xml:space="preserve">
+    <value>快速投匕</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_2" xml:space="preserve">
+    <value>掷斧</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_3" xml:space="preserve">
+    <value>爆炸</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_4" xml:space="preserve">
+    <value>时间停止</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_5" xml:space="preserve">
+    <value>乌鸦风暴</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_6" xml:space="preserve">
+    <value>量子传送</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_7" xml:space="preserve">
+    <value>置换器</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_8" xml:space="preserve">
+    <value>飞轮</value>
+  </data>
+  <data name="LOC_ID_SPELL_TYPE_9" xml:space="preserve">
+    <value>镰刀</value>
+  </data>
+  <data name="LOC_ID_SPLASH_SCREEN_1" xml:space="preserve">
+    <value>……正在载入中</value>
+  </data>
+  <data name="LOC_ID_TEXT_1" xml:space="preserve">
+    <value>铁匠</value>
+  </data>
+  <data name="LOC_ID_TEXT_10" xml:space="preserve">
+    <value>我曾经是一名呼风唤雨的女巫。直到有一天，这座城堡里的怪兽闯入了我的梦境，偷走了我全部的学识。</value>
+  </data>
+  <data name="LOC_ID_TEXT_100" xml:space="preserve">
+    <value>无声音</value>
+  </data>
+  <data name="LOC_ID_TEXT_101" xml:space="preserve">
+    <value>精灵宝箱</value>
+  </data>
+  <data name="LOC_ID_TEXT_102" xml:space="preserve">
+    <value>熔岩地面</value>
+  </data>
+  <data name="LOC_ID_TEXT_103" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_104" xml:space="preserve">
+    <value>你好啊！想试试你的身手吗？\n你只有一次机会，但这是免费的！如果成功，我会给你一个奖励！</value>
+  </data>
+  <data name="LOC_ID_TEXT_106" xml:space="preserve">
+    <value>10把匕首摧毁8个目标。试试看吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_107" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_108" xml:space="preserve">
+    <value>好了，玩够了。击中它！</value>
+  </data>
+  <data name="LOC_ID_TEXT_109" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_11" xml:space="preserve">
+    <value>他们将学识藏进符文里，没有那些符文，我就无法工作。</value>
+  </data>
+  <data name="LOC_ID_TEXT_110" xml:space="preserve">
+    <value>自从上次去酒馆（也就是昨天）以来，我还没见过那么多“小钢炮”呢。恭喜你击中所有目标，这里是一份薄礼！</value>
+  </data>
+  <data name="LOC_ID_TEXT_111" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_112" xml:space="preserve">
+    <value>连8个都打不中啊？\n噗嗤。  祝你接下来旅途顺利吧。</value>
+  </data>
+  <data name="LOC_ID_TEXT_114" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_115" xml:space="preserve">
+    <value>你好啊！来试一试你的技能吧。\n你只有一次机会，但这是免费的！如果成功，我会给你一个奖励！</value>
+  </data>
+  <data name="LOC_ID_TEXT_117" xml:space="preserve">
+    <value>你有5把斧头，摧毁尽可能多的目标。  剩下少于10个目标，我就给你一个奖励。试试看吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_118" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_119" xml:space="preserve">
+    <value>好极了！只剩下不到10个目标！反正我也攒不齐啦，这些东西不如都给你吧。</value>
+  </data>
+  <data name="LOC_ID_TEXT_12" xml:space="preserve">
+    <value>所以，拜托了，英雄，如果你找到任何符文，务必带回来给我，我会为你进行改造！</value>
+  </data>
+  <data name="LOC_ID_TEXT_120" xml:space="preserve">
+    <value>布伊安</value>
+  </data>
+  <data name="LOC_ID_TEXT_121" xml:space="preserve">
+    <value>你还剩下超过10个目标。\n我看你是不想要这些奖励吧。  咕咚咕咚！</value>
+  </data>
+  <data name="LOC_ID_TEXT_123" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="LOC_ID_TEXT_124" xml:space="preserve">
+    <value>你好，冒险者。  这里有一次千载难逢的好机会！</value>
+  </data>
+  <data name="LOC_ID_TEXT_125" xml:space="preserve">
+    <value>神秘的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_126" xml:space="preserve">
+    <value>付出你当前少得可怜黄金的25%，我会给你一个机会打开这3个箱子之一。</value>
+  </data>
+  <data name="LOC_ID_TEXT_127" xml:space="preserve">
+    <value>其中一个箱子中装着你所付出的三倍的黄金，另外两个箱子什么也没有。</value>
+  </data>
+  <data name="LOC_ID_TEXT_128" xml:space="preserve">
+    <value>小气鬼妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_129" xml:space="preserve">
+    <value>你想试试看吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_13" xml:space="preserve">
+    <value>建筑师</value>
+  </data>
+  <data name="LOC_ID_TEXT_130" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="LOC_ID_TEXT_131" xml:space="preserve">
+    <value>你好，冒险者。  这里有一次千载难逢的好机会！</value>
+  </data>
+  <data name="LOC_ID_TEXT_132" xml:space="preserve">
+    <value>神秘的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_133" xml:space="preserve">
+    <value>付出你当前少得可怜黄金的50%，我会给你一个机会打开这3个箱子之一。</value>
+  </data>
+  <data name="LOC_ID_TEXT_134" xml:space="preserve">
+    <value>其中一个箱子中装着你所付出的三倍的黄金，另外两个箱子什么也没有。</value>
+  </data>
+  <data name="LOC_ID_TEXT_135" xml:space="preserve">
+    <value>小气鬼妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_136" xml:space="preserve">
+    <value>你想试试看吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_137" xml:space="preserve">
+    <value>???</value>
+  </data>
+  <data name="LOC_ID_TEXT_138" xml:space="preserve">
+    <value>你好，冒险者。  这里有一次千载难逢的好机会！</value>
+  </data>
+  <data name="LOC_ID_TEXT_139" xml:space="preserve">
+    <value>神秘的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_14" xml:space="preserve">
+    <value>早~~哟~~小朋友！</value>
+  </data>
+  <data name="LOC_ID_TEXT_140" xml:space="preserve">
+    <value>付出你当前少得可怜黄金的75%，我会给你一个机会打开这3个箱子之一。</value>
+  </data>
+  <data name="LOC_ID_TEXT_141" xml:space="preserve">
+    <value>其中一个箱子中装着你所付出的三倍的黄金，另外两个箱子什么也没有。</value>
+  </data>
+  <data name="LOC_ID_TEXT_142" xml:space="preserve">
+    <value>小气鬼妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_143" xml:space="preserve">
+    <value>你想试试看吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_144" xml:space="preserve">
+    <value>小气鬼妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_145" xml:space="preserve">
+    <value>你钱不够了？辣鸡。</value>
+  </data>
+  <data name="LOC_ID_TEXT_146" xml:space="preserve">
+    <value>赌赢的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_147" xml:space="preserve">
+    <value>箱子里有什么？</value>
+  </data>
+  <data name="LOC_ID_TEXT_148" xml:space="preserve">
+    <value>什么也没有！</value>
+  </data>
+  <data name="LOC_ID_TEXT_149" xml:space="preserve">
+    <value>你这个傻瓜！大傻瓜！</value>
+  </data>
+  <data name="LOC_ID_TEXT_15" xml:space="preserve">
+    <value>告诉你一个小秘密！我~最~牛~~！</value>
+  </data>
+  <data name="LOC_ID_TEXT_150" xml:space="preserve">
+    <value>赌输的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_151" xml:space="preserve">
+    <value>切！  算你这回走运。</value>
+  </data>
+  <data name="LOC_ID_TEXT_152" xml:space="preserve">
+    <value>不耐烦的妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_153" xml:space="preserve">
+    <value>快开箱啊！</value>
+  </data>
+  <data name="LOC_ID_TEXT_154" xml:space="preserve">
+    <value>小气鬼妖精</value>
+  </data>
+  <data name="LOC_ID_TEXT_155" xml:space="preserve">
+    <value>抱歉啊兄弟，一人一个箱子。</value>
+  </data>
+  <data name="LOC_ID_TEXT_156" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_157" xml:space="preserve">
+    <value>Don't **** Your Pants\n开发时间：2天。\n发行日期：2009年2月16日</value>
+  </data>
+  <data name="LOC_ID_TEXT_16" xml:space="preserve">
+    <value>就个控制杆？只要轻轻一拉，我就能阻止城堡的改变。</value>
+  </data>
+  <data name="LOC_ID_TEXT_160" xml:space="preserve">
+    <value>这是我们制作的第一个游戏，那时我们的名字还叫作“Decade Studios”。在游戏中，你必须阻止一个不停想要输入文字的人。</value>
+  </data>
+  <data name="LOC_ID_TEXT_161" xml:space="preserve">
+    <value>游戏最初的设想是在一辆巴士上提出来的，我们决定在周末作出这个游戏。最后做得很不赖。</value>
+  </data>
+  <data name="LOC_ID_TEXT_162" xml:space="preserve">
+    <value>游戏的标题里有一句脏话，我们曾考虑过更改标题让它看起来更友好一点。不过最后我们还是壮了壮胆决定不改了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_163" xml:space="preserve">
+    <value>游戏的很大一部分围绕文字冒险进行，允许人们输入他们想要输入的内容。为了实现这一点，我们必须事先考虑人们可能输入的内容。</value>
+  </data>
+  <data name="LOC_ID_TEXT_164" xml:space="preserve">
+    <value>我们通过2种方式实现了这一点。首先，我们减少了玩家可进行的选择（一个人和一扇门），其次，我们构建了一个成就系统，可用于指引玩家。</value>
+  </data>
+  <data name="LOC_ID_TEXT_165" xml:space="preserve">
+    <value>成就系统在游戏中所占的比重巨大，因此我们将它加入了游戏，而不仅仅是一行进度显示。这是一项虽然很小但很重大的变化。</value>
+  </data>
+  <data name="LOC_ID_TEXT_166" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_167" xml:space="preserve">
+    <value>Band of Bears\n开发时间：4个月。\n发行日期：2009年8月6日</value>
+  </data>
+  <data name="LOC_ID_TEXT_17" xml:space="preserve">
+    <value>通过这种方式，你就能完全复原你的父辈曾穿过的路径。是不是很~~~~了不起？服气就对了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_170" xml:space="preserve">
+    <value>这是我们尝试制作的第二个游戏，后来参加了2009年的DreamBuildPlay大赛。我们很晚才得知这个比赛的消息，因此整个游戏都在努力赶上别人的进度。</value>
+  </data>
+  <data name="LOC_ID_TEXT_171" xml:space="preserve">
+    <value>在DSYP大获成功后，我们决定扩大开发……盲目扩大。  就这样，我们成立了Cellar Door Games。</value>
+  </data>
+  <data name="LOC_ID_TEXT_172" xml:space="preserve">
+    <value>为了进行这样一个其实远远超出我们的资源和专业能力的项目，我们甚至需要糊弄我们的本职工作来保证游戏的运行。这简直糟透了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_173" xml:space="preserve">
+    <value>游戏采用了B.E.A.R.S（Bare Effort Adaptable Room System）系统，它将根据游戏玩家的数量而改变房间。</value>
+  </data>
+  <data name="LOC_ID_TEXT_174" xml:space="preserve">
+    <value>BEARS系统不仅改变数量，还会改变谜题。我们最终拿到了Top 20的成绩，这很不错，但还不足以拿到任何奖励。</value>
+  </data>
+  <data name="LOC_ID_TEXT_175" xml:space="preserve">
+    <value>最终我们又找回了理智，回到了现实，我们意识到我们必须放弃这个项目，或至少无限期地中断它的开发。</value>
+  </data>
+  <data name="LOC_ID_TEXT_176" xml:space="preserve">
+    <value>试玩版里的Boss还是挺酷的。</value>
+  </data>
+  <data name="LOC_ID_TEXT_177" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_178" xml:space="preserve">
+    <value>Tribal Tallies\n开发时间：3个月。\n发行日期：2009年11月23日</value>
+  </data>
+  <data name="LOC_ID_TEXT_18" xml:space="preserve">
+    <value>我是怎么发明这个神~~奇~~~的装置的呀？当然是科~~~~学的力量！还有魔法。</value>
+  </data>
+  <data name="LOC_ID_TEXT_181" xml:space="preserve">
+    <value>在经历了Band of Bears的不快后，Tribal Tallies是我们首个开发时间超过一个月的项目。</value>
+  </data>
+  <data name="LOC_ID_TEXT_182" xml:space="preserve">
+    <value>这算是一个测试项目，是我们团队在iOS游戏领域的试水——我们过去从未试过在移动平台上开发游戏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_183" xml:space="preserve">
+    <value>游戏的概念十分简单，就是按顺序点击数字，越快越好。</value>
+  </data>
+  <data name="LOC_ID_TEXT_184" xml:space="preserve">
+    <value>为了增添趣味性，我们增加了好几个模式，例如逆序点击、隐藏数字、点击匹配等等。</value>
+  </data>
+  <data name="LOC_ID_TEXT_185" xml:space="preserve">
+    <value>我们认为游戏流程挺合理的，但没想到开发时间远远超出了我们的预计。  即使它是完全通过一款骇客工具开发的也毫无用处。</value>
+  </data>
+  <data name="LOC_ID_TEXT_186" xml:space="preserve">
+    <value>这是一款相当平庸的游戏。我们本可以做得更好，但在Band of Bears之后，我们都变得有些过于保守了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_187" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_188" xml:space="preserve">
+    <value>Q\n开发时间：1个月。\n发行日期：2010年3月18日</value>
+  </data>
+  <data name="LOC_ID_TEXT_19" xml:space="preserve">
+    <value>……主要还是魔法。</value>
+  </data>
+  <data name="LOC_ID_TEXT_191" xml:space="preserve">
+    <value>我们的第四个项目。在Tribal Tallies开发完毕后，我们休息了几个月，不再开发游戏，而是专注于本职工作。  恢复一段时间后，我们又闲不住了，决定开发一款解谜游戏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_192" xml:space="preserve">
+    <value>那时，Cellar Door Games初期的许多创始人已经离开了我们去寻找更好的机会，而剩下来的散兵游勇共同组成了今天的公司。</value>
+  </data>
+  <data name="LOC_ID_TEXT_193" xml:space="preserve">
+    <value>游戏采用了一个队列组合机制，要求玩家思考下一块砖的落点以形成更好的组合。</value>
+  </data>
+  <data name="LOC_ID_TEXT_194" xml:space="preserve">
+    <value>这是一款免费游戏，但仍然没人买账。在经历Band of Bears、Tribal Tallies和Q的失败后，我们已经准备好收拾包袱关门大吉了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_195" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_196" xml:space="preserve">
+    <value>My First Quantum Translocator\n开发时间：1个月。\n发行日期：2010年10月13日</value>
+  </data>
+  <data name="LOC_ID_TEXT_199" xml:space="preserve">
+    <value>My First Quantum Translocator是在公司最苦难的时候出生的。  在经历3次重大失败后，我们已经完全卸下了精神包袱，决定随便做个flash小游戏玩玩。</value>
+  </data>
+  <data name="LOC_ID_TEXT_2" xml:space="preserve">
+    <value>欢迎，英雄。</value>
+  </data>
+  <data name="LOC_ID_TEXT_20" xml:space="preserve">
+    <value>但我这项技能可不是免~~费的哟。要我锁住这座城堡，你需要付出你获得全部40%的黄~~~金！</value>
+  </data>
+  <data name="LOC_ID_TEXT_200" xml:space="preserve">
+    <value>毫无疑问，在开发过程中，谁也没有去考虑游戏的反响，大家只是乐在其中。</value>
+  </data>
+  <data name="LOC_ID_TEXT_201" xml:space="preserve">
+    <value>后来的事大家都知道了，游戏大获成功，这也是Cellar Door Games至今仍然存在的唯一原因。  在发行MFQT时，我们就知道，开弓没有回头箭了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_202" xml:space="preserve">
+    <value>有趣的是，大多数人都认为这款游戏的灵感来自Portal，但实际上这些相似之处纯属巧合。</value>
+  </data>
+  <data name="LOC_ID_TEXT_203" xml:space="preserve">
+    <value>实际上，这款游戏的灵感来源于我们为《英雄联盟》设想的一个英雄。</value>
+  </data>
+  <data name="LOC_ID_TEXT_204" xml:space="preserve">
+    <value>事实上，在我们最终将美术和情节套用到MFQT上时，它才显示出与Portal的共性来。</value>
+  </data>
+  <data name="LOC_ID_TEXT_205" xml:space="preserve">
+    <value>不管怎么说，我们都为这款游戏感到自豪。它的成绩不错，结局也很好。</value>
+  </data>
+  <data name="LOC_ID_TEXT_206" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_207" xml:space="preserve">
+    <value>I Have 1 Day\n开发时间：1.5个月。\n发行日期：2011年4月15日</value>
+  </data>
+  <data name="LOC_ID_TEXT_21" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_210" xml:space="preserve">
+    <value>如果你要问我们，在我们开发的所有游戏中最喜欢的是哪一个，那么大家一定会异口同声地回答：I Have 1 Day。</value>
+  </data>
+  <data name="LOC_ID_TEXT_211" xml:space="preserve">
+    <value>我们的童年是在《国王密使》、《猴岛小英雄》这些经典的冒险游戏中度过的，而这款游戏正是向我们最美好的游戏回忆的一次致敬。</value>
+  </data>
+  <data name="LOC_ID_TEXT_212" xml:space="preserve">
+    <value>这是一款目标时间解谜游戏，玩家只有24小时的时间可以通关。</value>
+  </data>
+  <data name="LOC_ID_TEXT_213" xml:space="preserve">
+    <value>每一个谜题都有多种可影响时间的解答，要求玩家找出解谜的最优方式。</value>
+  </data>
+  <data name="LOC_ID_TEXT_214" xml:space="preserve">
+    <value>有趣的是，第二个结局几乎是在最后一刻才加进去的，但是如果没有这个结局，整个游戏就毁了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_215" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_216" xml:space="preserve">
+    <value>Villainous\n开发时间：3个月。\n发行日期：2011年4月15日</value>
+  </data>
+  <data name="LOC_ID_TEXT_219" xml:space="preserve">
+    <value>开发Villainous是我们最大的一次冒险。</value>
+  </data>
+  <data name="LOC_ID_TEXT_22" xml:space="preserve">
+    <value>你想要锁住城堡并只获得60%的黄金吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_220" xml:space="preserve">
+    <value>游戏最初的概念是反塔防游戏，听起来似乎不错，但我们确实经过了艰巨的努力才将“听起来不错”变成了“确实不错”。</value>
+  </data>
+  <data name="LOC_ID_TEXT_221" xml:space="preserve">
+    <value>大多数玩过这款游戏的玩家都认为这个理念很清晰，但实际在开发过程中我们承受着相当大的压力和争议。</value>
+  </data>
+  <data name="LOC_ID_TEXT_222" xml:space="preserve">
+    <value>在确定最终版本之前，我们至少废掉了三四个草案。</value>
+  </data>
+  <data name="LOC_ID_TEXT_223" xml:space="preserve">
+    <value>讽刺的是，直到今天，Villainous也是我们最重要最成功的游戏之一。但这也是开发过程最痛苦的游戏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_224" xml:space="preserve">
+    <value>开发者：</value>
+  </data>
+  <data name="LOC_ID_TEXT_225" xml:space="preserve">
+    <value>Bullet Audyssey\n开发时间：3.5个月。\n发行日期：2011年11月29日</value>
+  </data>
+  <data name="LOC_ID_TEXT_228" xml:space="preserve">
+    <value>Bullet Audyssey是我们着手开发《盗贼遗产》前的最后一款游戏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_229" xml:space="preserve">
+    <value>作为一款以节奏和节拍为基础的弹幕射击游戏，Bullet Audyssey是我们开发过的游戏中技术难度最大的（是的，甚至超过《盗贼遗产》）。</value>
+  </data>
+  <data name="LOC_ID_TEXT_23" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_230" xml:space="preserve">
+    <value>开发一个关卡就需要同时运行3个编辑器。</value>
+  </data>
+  <data name="LOC_ID_TEXT_231" xml:space="preserve">
+    <value>开发这款游戏还有一点不同于传统方式的就是需要进行大量的预规划，以确定启动所有功能。</value>
+  </data>
+  <data name="LOC_ID_TEXT_232" xml:space="preserve">
+    <value>由于不适合文本介绍，这着实为难了我们，我们不得不花上大半天来讲清楚这个游戏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_233" xml:space="preserve">
+    <value>玩家在游戏中根据当时播放的歌曲的节拍吸收敌人的子弹，然后再发射回去。</value>
+  </data>
+  <data name="LOC_ID_TEXT_234" xml:space="preserve">
+    <value>最初的游戏测试简直是灾难性的，因为游戏太难了，人们玩了一分钟就玩不下去了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_235" xml:space="preserve">
+    <value>在测试中，我们甚至找到了一个根本不玩弹幕射击游戏的家伙。  但测试范围实际比我们通常的测试范围要广。</value>
+  </data>
+  <data name="LOC_ID_TEXT_236" xml:space="preserve">
+    <value>这款游戏在发布时表现一般。却给了我们开发《盗贼遗产》的信心！</value>
+  </data>
+  <data name="LOC_ID_TEXT_237" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="LOC_ID_TEXT_238" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="LOC_ID_TEXT_239" xml:space="preserve">
+    <value>警告！</value>
+  </data>
+  <data name="LOC_ID_TEXT_24" xml:space="preserve">
+    <value>你想要锁住城堡并只获得60%的黄金吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_240" xml:space="preserve">
+    <value>你确定要开始新的游戏吗？将消除所有已保存的游戏数据。</value>
+  </data>
+  <data name="LOC_ID_TEXT_241" xml:space="preserve">
+    <value>还原控制</value>
+  </data>
+  <data name="LOC_ID_TEXT_242" xml:space="preserve">
+    <value>你确定要还原初始控制设置吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_243" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_244" xml:space="preserve">
+    <value>你确定要使用这名英雄开始新的冒险吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_245" xml:space="preserve">
+    <value>分辨率已改变</value>
+  </data>
+  <data name="LOC_ID_TEXT_246" xml:space="preserve">
+    <value>你确定要以此分辨率运行游戏吗？\n（分辨率将在10秒后还原）</value>
+  </data>
+  <data name="LOC_ID_TEXT_248" xml:space="preserve">
+    <value>删除存档文件</value>
+  </data>
+  <data name="LOC_ID_TEXT_249" xml:space="preserve">
+    <value>你确定要删除存档文件吗？\n（所有技能、特性、血统和装备将永久消除）</value>
+  </data>
+  <data name="LOC_ID_TEXT_25" xml:space="preserve">
+    <value>建筑师</value>
+  </data>
+  <data name="LOC_ID_TEXT_251" xml:space="preserve">
+    <value>删除存档文件</value>
+  </data>
+  <data name="LOC_ID_TEXT_252" xml:space="preserve">
+    <value>你真的真的确定吗？（不可逆操作）\n（所有技能、特性、血统和装备将永久消除）</value>
+  </data>
+  <data name="LOC_ID_TEXT_254" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_255" xml:space="preserve">
+    <value>你确定要退出到主菜单吗？（将保存你当前的状态）</value>
+  </data>
+  <data name="LOC_ID_TEXT_256" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_257" xml:space="preserve">
+    <value>你确定要退出《盗贼遗产》吗？（将保存你当前的状态）</value>
+  </data>
+  <data name="LOC_ID_TEXT_258" xml:space="preserve">
+    <value>存档错误</value>
+  </data>
+  <data name="LOC_ID_TEXT_259" xml:space="preserve">
+    <value>哦不！你的存档文件损坏了！</value>
+  </data>
+  <data name="LOC_ID_TEXT_26" xml:space="preserve">
+    <value>对不起，小朋友，现在没有城堡可建。这个螺丝是摆来看的。</value>
+  </data>
+  <data name="LOC_ID_TEXT_260" xml:space="preserve">
+    <value>正在尝试载入游戏备份。希望不会让你有太大损失！</value>
+  </data>
+  <data name="LOC_ID_TEXT_261" xml:space="preserve">
+    <value>存档错误</value>
+  </data>
+  <data name="LOC_ID_TEXT_262" xml:space="preserve">
+    <value>备份看起来也出了点毛病。请联系：support@cellardoorgames.com</value>
+    <comment>备份看起来也出了点毛病。恐怕我们不得不重新开始游戏了。</comment>
+  </data>
+  <data name="LOC_ID_TEXT_263" xml:space="preserve">
+    <value>存档错误</value>
+  </data>
+  <data name="LOC_ID_TEXT_264" xml:space="preserve">
+    <value>连续3次游戏存档失败。</value>
+  </data>
+  <data name="LOC_ID_TEXT_265" xml:space="preserve">
+    <value>杀毒软件和手动备份保存程序可能与存档发生冲突。请在运行前关闭这些软件。</value>
+  </data>
+  <data name="LOC_ID_TEXT_27" xml:space="preserve">
+    <value>建筑师</value>
+  </data>
+  <data name="LOC_ID_TEXT_28" xml:space="preserve">
+    <value>小家伙，城堡已经锁住了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_29" xml:space="preserve">
+    <value>建筑师</value>
+  </data>
+  <data name="LOC_ID_TEXT_3" xml:space="preserve">
+    <value>也许你能给我帮个忙。我曾经是这片大陆上最好的铁匠。  直到有一天，这座城堡里的怪兽袭击了我的铁匠铺，偷走了我所有的图纸。</value>
+  </data>
+  <data name="LOC_ID_TEXT_30" xml:space="preserve">
+    <value>玩儿去吧！也许你能找到一些你的父辈没找到的宝藏。</value>
+  </data>
+  <data name="LOC_ID_TEXT_31" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_32" xml:space="preserve">
+    <value>……要想从此过，留下买路财。</value>
+  </data>
+  <data name="LOC_ID_TEXT_33" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_34" xml:space="preserve">
+    <value>（将所有钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_35" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_36" xml:space="preserve">
+    <value>（将所有钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_37" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_38" xml:space="preserve">
+    <value>（将90%的钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_39" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_4" xml:space="preserve">
+    <value>没有这些图纸，我就只能打一些餐具了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_40" xml:space="preserve">
+    <value>（将80%的钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_41" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_42" xml:space="preserve">
+    <value>（将70%的钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_43" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_44" xml:space="preserve">
+    <value>（将60%的钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_45" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_46" xml:space="preserve">
+    <value>（将50%的钱交给卡戎并进入城堡？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_47" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_48" xml:space="preserve">
+    <value>哦呵呵！你拿着我的银币。那这一次，我就让你免费进去吧。</value>
+  </data>
+  <data name="LOC_ID_TEXT_49" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_5" xml:space="preserve">
+    <value>请为我带回你找到的任何图纸，我将为你打造世界上最强的装备。绝对。 </value>
+  </data>
+  <data name="LOC_ID_TEXT_50" xml:space="preserve">
+    <value>哦哟！这可是一枚很少见的银币。</value>
+  </data>
+  <data name="LOC_ID_TEXT_51" xml:space="preserve">
+    <value>把它给我，我让你的灵魂从另一扇门进去。</value>
+  </data>
+  <data name="LOC_ID_TEXT_52" xml:space="preserve">
+    <value>（将银币作为入场费交给卡戎？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_53" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_54" xml:space="preserve">
+    <value>哦哟！这可是一枚很少见的银币。</value>
+  </data>
+  <data name="LOC_ID_TEXT_55" xml:space="preserve">
+    <value>把它给我，我让你的灵魂从另一扇门进去。</value>
+  </data>
+  <data name="LOC_ID_TEXT_56" xml:space="preserve">
+    <value>（将银币作为入场费交给卡戎？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_57" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_58" xml:space="preserve">
+    <value>哦哟！这可是一枚很少见的银币。</value>
+  </data>
+  <data name="LOC_ID_TEXT_59" xml:space="preserve">
+    <value>把它给我，我让你的灵魂从另一扇门进去。</value>
+  </data>
+  <data name="LOC_ID_TEXT_6" xml:space="preserve">
+    <value>……当然了，钱还是要付的。</value>
+  </data>
+  <data name="LOC_ID_TEXT_60" xml:space="preserve">
+    <value>（将银币作为入场费交给卡戎？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_61" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_62" xml:space="preserve">
+    <value>哦哟！这可是一枚很少见的银币。</value>
+  </data>
+  <data name="LOC_ID_TEXT_63" xml:space="preserve">
+    <value>把它给我，我让你的灵魂从另一扇门进去。</value>
+  </data>
+  <data name="LOC_ID_TEXT_64" xml:space="preserve">
+    <value>（将银币作为入场费交给卡戎？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_65" xml:space="preserve">
+    <value>卡戎</value>
+  </data>
+  <data name="LOC_ID_TEXT_66" xml:space="preserve">
+    <value>噢……你不应该拿走这枚银币。</value>
+  </data>
+  <data name="LOC_ID_TEXT_67" xml:space="preserve">
+    <value>做好准备。</value>
+  </data>
+  <data name="LOC_ID_TEXT_68" xml:space="preserve">
+    <value>（将银币作为入场费交给卡戎？）</value>
+  </data>
+  <data name="LOC_ID_TEXT_69" xml:space="preserve">
+    <value>心灵圣殿</value>
+  </data>
+  <data name="LOC_ID_TEXT_7" xml:space="preserve">
+    <value>女巫</value>
+  </data>
+  <data name="LOC_ID_TEXT_70" xml:space="preserve">
+    <value>你会祈求帮助吗？</value>
+  </data>
+  <data name="LOC_ID_TEXT_71" xml:space="preserve">
+    <value>最终Boss</value>
+  </data>
+  <data name="LOC_ID_TEXT_72" xml:space="preserve">
+    <value>欢迎，英雄。  你能走这么远，真令我惊讶。不幸的是，你也只能止步于此了。</value>
+  </data>
+  <data name="LOC_ID_TEXT_73" xml:space="preserve">
+    <value>精灵宝箱 - 空</value>
+  </data>
+  <data name="LOC_ID_TEXT_74" xml:space="preserve">
+    <value>无文本</value>
+  </data>
+  <data name="LOC_ID_TEXT_75" xml:space="preserve">
+    <value>打败所有敌人</value>
+  </data>
+  <data name="LOC_ID_TEXT_76" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_77" xml:space="preserve">
+    <value>低生命值</value>
+  </data>
+  <data name="LOC_ID_TEXT_78" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_79" xml:space="preserve">
+    <value>不可查看</value>
+  </data>
+  <data name="LOC_ID_TEXT_8" xml:space="preserve">
+    <value>你好，英雄。</value>
+  </data>
+  <data name="LOC_ID_TEXT_80" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_81" xml:space="preserve">
+    <value>不可跳跃</value>
+  </data>
+  <data name="LOC_ID_TEXT_82" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_83" xml:space="preserve">
+    <value>不可发出噪音</value>
+  </data>
+  <data name="LOC_ID_TEXT_84" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_85" xml:space="preserve">
+    <value>不可触碰地面</value>
+  </data>
+  <data name="LOC_ID_TEXT_86" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_87" xml:space="preserve">
+    <value>不可战斗</value>
+  </data>
+  <data name="LOC_ID_TEXT_88" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_89" xml:space="preserve">
+    <value>在规定时间内抵达</value>
+  </data>
+  <data name="LOC_ID_TEXT_9" xml:space="preserve">
+    <value>请驻足片刻，聆听我的求助。</value>
+  </data>
+  <data name="LOC_ID_TEXT_90" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_91" xml:space="preserve">
+    <value>不受伤害</value>
+  </data>
+  <data name="LOC_ID_TEXT_92" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_93" xml:space="preserve">
+    <value>找到我</value>
+  </data>
+  <data name="LOC_ID_TEXT_94" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TEXT_95" xml:space="preserve">
+    <value>精灵宝箱</value>
+  </data>
+  <data name="LOC_ID_TEXT_96" xml:space="preserve">
+    <value>别看我！</value>
+  </data>
+  <data name="LOC_ID_TEXT_97" xml:space="preserve">
+    <value>精灵宝箱</value>
+  </data>
+  <data name="LOC_ID_TEXT_98" xml:space="preserve">
+    <value>不可跳跃</value>
+  </data>
+  <data name="LOC_ID_TEXT_99" xml:space="preserve">
+    <value>精灵宝箱</value>
+  </data>
+  <data name="LOC_ID_THRONE_ROOM_OBJ_1_NEW" xml:space="preserve">
+    <value>按下[Input:12]攻击</value>
+  </data>
+  <data name="LOC_ID_TITLE_SCREEN_2" xml:space="preserve">
+    <value>继续你的追寻</value>
+  </data>
+  <data name="LOC_ID_TITLE_SCREEN_3" xml:space="preserve">
+    <value>选择你的后代</value>
+  </data>
+  <data name="LOC_ID_TITLE_SCREEN_4" xml:space="preserve">
+    <value>开启你的遗产</value>
+  </data>
+  <data name="LOC_ID_TRADEMARK_GENERIC" xml:space="preserve">
+    <value>{0} 是Cellar Door Games公司的商标。保留所有权利。</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_1" xml:space="preserve">
+    <value>训练假人</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_10" xml:space="preserve">
+    <value>很痛啊啊啊</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_11" xml:space="preserve">
+    <value>啊呀</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_12" xml:space="preserve">
+    <value>嗷</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_13" xml:space="preserve">
+    <value>呜哇</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_14" xml:space="preserve">
+    <value>我投降！</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_15" xml:space="preserve">
+    <value>你就这点力气？</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_16" xml:space="preserve">
+    <value>好吧，刚才那一下很痛</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_17" xml:space="preserve">
+    <value>挠痒痒</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_18" xml:space="preserve">
+    <value>不过如此？</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_19" xml:space="preserve">
+    <value>不过就这点力气？</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_2" xml:space="preserve">
+    <value>哦老天！</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_20" xml:space="preserve">
+    <value>还不错</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_21" xml:space="preserve">
+    <value>弱鸡</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_22" xml:space="preserve">
+    <value>再试试</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_3" xml:space="preserve">
+    <value>疼！</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_4" xml:space="preserve">
+    <value>好疼啊</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_5" xml:space="preserve">
+    <value>别打了！</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_6" xml:space="preserve">
+    <value>我怎么你了？</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_7" xml:space="preserve">
+    <value>为什么打我？？？</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_8" xml:space="preserve">
+    <value>别打我了</value>
+  </data>
+  <data name="LOC_ID_TRAINING_DUMMY_9" xml:space="preserve">
+    <value>你干什么？</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_1" xml:space="preserve">
+    <value>你是全色盲，无法分辨颜色。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_10" xml:space="preserve">
+    <value>你太轻了，随便打一下就飞了出去。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_11" xml:space="preserve">
+    <value>你总记不住自己在哪儿。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_12" xml:space="preserve">
+    <value>你的生命槽和法力槽是反的。  谁知道呢？</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_13" xml:space="preserve">
+    <value>[哔]！</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_14" xml:space="preserve">
+    <value>你充满力量！跑得更快了。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_15" xml:space="preserve">
+    <value>必须。打扫。干净。打破物品以恢复法力值。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_16" xml:space="preserve">
+    <value>你永远精力无穷。一拳能把敌人打得老远。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_17" xml:space="preserve">
+    <value>你四肢无力。  无法击倒敌人。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_18" xml:space="preserve">
+    <value>你无法立体视物。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_19" xml:space="preserve">
+    <value>最勇猛的英雄也可能拉肚子。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_2" xml:space="preserve">
+    <value>你身为女人喜欢女人。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_20" xml:space="preserve">
+    <value>欢迎来到晕车世界。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_21" xml:space="preserve">
+    <value>你没有周边视野。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_22" xml:space="preserve">
+    <value>你两只手顺拐儿，没办法正常施法。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_23" xml:space="preserve">
+    <value>外周动脉疾病。你的脚上没有脉搏。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_24" xml:space="preserve">
+    <value>你被鸡吓得半死。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_25" xml:space="preserve">
+    <value>你总是反应过度。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_26" xml:space="preserve">
+    <value>你疯疯癫癫的。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_27" xml:space="preserve">
+    <value>你的身体很柔韧。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_28" xml:space="preserve">
+    <value>你有过目不忘的本领。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_29" xml:space="preserve">
+    <value>你怀念过去的旧时光。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_2b" xml:space="preserve">
+    <value>你身为男人喜欢男人。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_3" xml:space="preserve">
+    <value>你看不清远处的东西。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_30" xml:space="preserve">
+    <value>对疼痛先天不敏感。不知道啥叫痛。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_31" xml:space="preserve">
+    <value>你很聪明。就是脑子有点毛病。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_32" xml:space="preserve">
+    <value>你的眼里没有岔路。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_33" xml:space="preserve">
+    <value>你会摔坏很多东西。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_34" xml:space="preserve">
+    <value>你导电性极好。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_35" xml:space="preserve">
+    <value>太黑了。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_36" xml:space="preserve">
+    <value>你会时不时的肌肉痉挛。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_37" xml:space="preserve">
+    <value>你无法面部识别。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_4" xml:space="preserve">
+    <value>你看不清近处的东西。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_5" xml:space="preserve">
+    <value>你有读阅碍障。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_6" xml:space="preserve">
+    <value>你是个天生的篮球运动员。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_7" xml:space="preserve">
+    <value>你从没坐过过山车。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_8" xml:space="preserve">
+    <value>秃是一种美。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_DESC_9" xml:space="preserve">
+    <value>你太重了，敌人都打不翻你。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_1" xml:space="preserve">
+    <value>你看不见颜色。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_10" xml:space="preserve">
+    <value>容易被打飞。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_11" xml:space="preserve">
+    <value>你在哪儿？</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_12" xml:space="preserve">
+    <value>生命槽和法力槽相反。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_13" xml:space="preserve">
+    <value>[哔]！</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_14" xml:space="preserve">
+    <value>你跑得更快。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_15" xml:space="preserve">
+    <value>打破物品以恢复法力值。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_16" xml:space="preserve">
+    <value>你一拳能把敌人揍飞。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_17" xml:space="preserve">
+    <value>你无法把敌人击倒。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_18" xml:space="preserve">
+    <value>你无法立体视物。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_19" xml:space="preserve">
+    <value>你天天放屁。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_2" xml:space="preserve">
+    <value>你身为女人喜欢女人。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_20" xml:space="preserve">
+    <value>所有东西上下颠倒。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_21" xml:space="preserve">
+    <value>没有预警。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_22" xml:space="preserve">
+    <value>法术从你身后发出。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_23" xml:space="preserve">
+    <value>你的脚上没有脉搏。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_24" xml:space="preserve">
+    <value>你害怕鸡。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_25" xml:space="preserve">
+    <value>夸大你受到的伤害。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_26" xml:space="preserve">
+    <value>你会产生幻觉。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_27" xml:space="preserve">
+    <value>你一边战斗一边转圈。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_28" xml:space="preserve">
+    <value>你记得住每个敌人的位置。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_29" xml:space="preserve">
+    <value>每一样东西都充满了怀旧气息。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_2b" xml:space="preserve">
+    <value>你身为男人喜欢男人。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_3" xml:space="preserve">
+    <value>你看不清远处的东西。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_30" xml:space="preserve">
+    <value>看不见生命槽。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_31" xml:space="preserve">
+    <value>随机施放法术。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_32" xml:space="preserve">
+    <value>你的眼里没有岔路。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_33" xml:space="preserve">
+    <value>你总是打碎东西，平衡性极差。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_34" xml:space="preserve">
+    <value>平台永远开放。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_35" xml:space="preserve">
+    <value>太黑了。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_4" xml:space="preserve">
+    <value>你看不清近处的东西。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_5" xml:space="preserve">
+    <value>你有读阅碍障。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_6" xml:space="preserve">
+    <value>你很大。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_7" xml:space="preserve">
+    <value>你很小。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_8" xml:space="preserve">
+    <value>你秃了。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_PROF_9" xml:space="preserve">
+    <value>无法被打倒。</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_1" xml:space="preserve">
+    <value>色盲</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_10" xml:space="preserve">
+    <value>瘦型体质</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_11" xml:space="preserve">
+    <value>老年痴呆</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_12" xml:space="preserve">
+    <value>右位心</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_13" xml:space="preserve">
+    <value>秽语症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_14" xml:space="preserve">
+    <value>多动症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_15" xml:space="preserve">
+    <value>强迫症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_16" xml:space="preserve">
+    <value>性腺机能亢进症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_17" xml:space="preserve">
+    <value>肌肉萎缩</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_18" xml:space="preserve">
+    <value>立体盲</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_19" xml:space="preserve">
+    <value>肠易激综合征</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_2" xml:space="preserve">
+    <value>同性恋</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_20" xml:space="preserve">
+    <value>眩晕症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_21" xml:space="preserve">
+    <value>视野狭窄</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_22" xml:space="preserve">
+    <value>双手障碍</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_23" xml:space="preserve">
+    <value>下肢动脉硬化闭塞症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_24" xml:space="preserve">
+    <value>恐鸡症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_25" xml:space="preserve">
+    <value>忧郁症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_26" xml:space="preserve">
+    <value>痴呆</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_27" xml:space="preserve">
+    <value>柔韧</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_28" xml:space="preserve">
+    <value>过目不忘</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_29" xml:space="preserve">
+    <value>思乡症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_3" xml:space="preserve">
+    <value>近视</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_30" xml:space="preserve">
+    <value>无痛症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_31" xml:space="preserve">
+    <value>学者症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_32" xml:space="preserve">
+    <value>单一症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_33" xml:space="preserve">
+    <value>笨拙</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_34" xml:space="preserve">
+    <value>电磁波过敏症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_35" xml:space="preserve">
+    <value>青光眼</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_36" xml:space="preserve">
+    <value>阵挛</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_37" xml:space="preserve">
+    <value>人面失认症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_4" xml:space="preserve">
+    <value>远视</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_5" xml:space="preserve">
+    <value>阅读障碍</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_6" xml:space="preserve">
+    <value>巨人症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_7" xml:space="preserve">
+    <value>侏儒症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_8" xml:space="preserve">
+    <value>脱发症</value>
+  </data>
+  <data name="LOC_ID_TRAIT_TYPE_9" xml:space="preserve">
+    <value>胖型体质</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_1" xml:space="preserve">
+    <value>开发：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_2" xml:space="preserve">
+    <value>设计：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_3" xml:space="preserve">
+    <value>程序编制：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_4" xml:space="preserve">
+    <value>出品：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_5" xml:space="preserve">
+    <value>美术：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_6" xml:space="preserve">
+    <value>音效设计和音乐：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_7" xml:space="preserve">
+    <value>音乐：</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_CREDITS_TITLE_8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_10" xml:space="preserve">
+    <value>使用向下攻击</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_11" xml:space="preserve">
+    <value>按下[Input:11]以跳跃</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_12" xml:space="preserve">
+    <value>长按[Input:11]以跳得更高</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_13" xml:space="preserve">
+    <value>按下[Input:12]以攻击</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_14" xml:space="preserve">
+    <value>长按[Input:19]并按下[Input:11]以跳下平台</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_15" xml:space="preserve">
+    <value>（空中）长按[Input:19]并按下[Input:12]以向下攻击</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_16" xml:space="preserve">
+    <value>按下[Input:10]以跳跃</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_17" xml:space="preserve">
+    <value>长按[Input:10]以跳得更高</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_18" xml:space="preserve">
+    <value>按下[Input:12]以攻击</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_19" xml:space="preserve">
+    <value>长按[Input:18]并按下[Input:10]以跳下平台</value>
+  </data>
+  <data name="LOC_ID_TUTORIAL_ROOM_OBJ_20" xml:space="preserve">
+    <value>（空中）长按[Input:18]并按下[Input:12]以向下攻击</value>
+  </data>
+  <data name="LOC_ID_UNLOCK_TRAITOR_OPTIONS" xml:space="preserve">
+    <value>解锁叛徒</value>
+  </data>
+</root>

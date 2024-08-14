@@ -1,0 +1,25 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  linux:
+    name: Linux
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Clone FNA
+      run: |
+        git clone --recursive https://github.com/FNA-XNA/FNA.git
+        mv FNA ../FNA
+
+    - name: dotnet build (Debug)
+      run: |
+        dotnet build -c Debug
+
+    - name: dotnet build (Release)
+      run: |
+        dotnet build -c Release

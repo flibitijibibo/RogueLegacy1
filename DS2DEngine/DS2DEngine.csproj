@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InputSystem\InputSystem.csproj">
+      <Project>{4EFA1C2F-A065-4520-A8AC-A71EA1751C54}</Project>
+      <Name>InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SpriteSystem\SpriteSystem.csproj">
+      <Project>{92C40872-2B5C-4894-AABB-602547E1DFC3}</Project>
+      <Name>SpriteSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tweener\Tweener.csproj">
+      <Project>{D9583122-AC6D-41EB-8292-04BDD0519D7C}</Project>
+      <Name>Tweener</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FNA\FNA.NetFramework.csproj">
+      <Project>{35253CE1-C864-4CD3-8249-4D1319748E8F}</Project>
+      <Name>FNA</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
