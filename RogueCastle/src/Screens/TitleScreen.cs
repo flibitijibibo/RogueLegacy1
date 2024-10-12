@@ -590,50 +590,59 @@ namespace RogueCastle
         {
             Camera.GraphicsDevice.SetRenderTarget(m_godRayTexture);
             Camera.GraphicsDevice.Clear(Color.White);
-            Camera.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied, SamplerState.LinearClamp, null, null); // Anything that is affected by the godray should be drawn here.
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.NonPremultiplied, SamplerState.LinearClamp, null, null); // Anything that is affected by the godray should be drawn here.
             m_smallCloud1.DrawOutline(Camera);
             m_smallCloud3.DrawOutline(Camera);
             m_smallCloud4.DrawOutline(Camera);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.PointClamp;
+            Camera.End();
+
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.NonPremultiplied, SamplerState.PointClamp, null, null);
             m_castle.DrawOutline(Camera);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.LinearClamp;
+            Camera.End();
+
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.NonPremultiplied, SamplerState.LinearClamp, null, null);
             m_smallCloud2.DrawOutline(Camera);
             m_smallCloud5.DrawOutline(Camera);
             m_logo.DrawOutline(Camera);
             m_dlcIcon.DrawOutline(Camera);
             m_crown.DrawOutline(Camera);
-
             //m_largeCloud1.DrawOutline(Camera);
             //m_largeCloud2.DrawOutline(Camera);
             //m_largeCloud3.DrawOutline(Camera);
             //m_largeCloud4.DrawOutline(Camera);
             Camera.End();
 
+            // Draw the post-processed stuff to the godray render target
             m_ppm.Draw(gameTime, m_godRayTexture);
 
              //Anything not affected by god ray should get drawn here.
             Camera.GraphicsDevice.SetRenderTarget(m_godRayTexture);
             Camera.GraphicsDevice.Clear(Color.Black);
-            Camera.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.LinearClamp, null, null);
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.LinearClamp, null, null);
             m_bg.Draw(Camera);
             m_smallCloud1.Draw(Camera);
             m_smallCloud3.Draw(Camera);
             m_smallCloud4.Draw(Camera);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.PointClamp;
+            Camera.End();
+
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, null, null);
             m_castle.Draw(Camera);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.LinearClamp;
+            Camera.End();
+
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.LinearClamp, null, null);
             m_smallCloud2.Draw(Camera);
             m_smallCloud5.Draw(Camera);
-
             m_largeCloud1.Draw(Camera);
             m_largeCloud2.Draw(Camera);
             m_largeCloud3.Draw(Camera);
             m_largeCloud4.Draw(Camera);
+            Camera.End();
 
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.PointClamp;
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointClamp, null, null);
             Camera.Draw(Game.GenericTexture, new Rectangle(-10, -10, 1400, 800), Color.Black * m_hardCoreModeOpacity);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.LinearClamp;
+            Camera.End();
 
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.LinearClamp, null, null);
             m_logo.Draw(Camera);
             m_crown.Draw(Camera);
             m_copyrightText.Draw(Camera);
@@ -648,7 +657,9 @@ namespace RogueCastle
             m_creditsKey.Draw(Camera);
             m_optionsKey.Draw(Camera);
             m_profileSelectKey.Draw(Camera);
-            Camera.GraphicsDevice.SamplerStates[0] = SamplerState.PointWrap;
+            Camera.End();
+
+            Camera.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend, SamplerState.PointWrap, null, null);
             if (m_startNewLegacy == false)
                 m_profileCard.Draw(Camera);
             m_dlcIcon.Draw(Camera);
@@ -656,6 +667,7 @@ namespace RogueCastle
             m_creditsIcon.Draw(Camera);
             Camera.End();
 
+            // Draw the render targets to the screen
             Camera.GraphicsDevice.SetRenderTarget((ScreenManager as RCScreenManager).RenderTarget);
             Camera.GraphicsDevice.Clear(Color.Black);
 
