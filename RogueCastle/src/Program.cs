@@ -149,7 +149,7 @@ namespace RogueCastle
                 }
                 return Path.Combine(osDir, "RogueLegacy");
             }
-            else if (os.Equals("Mac OS X"))
+            else if (os.Equals("macOS"))
             {
                 string osDir = Environment.GetEnvironmentVariable("HOME");
                 if (string.IsNullOrEmpty(osDir))
