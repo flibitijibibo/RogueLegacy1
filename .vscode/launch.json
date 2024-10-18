@@ -12,7 +12,7 @@
             "cwd": "${workspaceRoot}/RogueCastle/bin/x64/Debug/net40/",
             "linux": {
                 "env": {
-                    "LD_LIBRARY_PATH": "${workspaceRoot}/fnalibs3/x64/"
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/fnalibs3/lib64/"
                 }
             },
             "windows": {
