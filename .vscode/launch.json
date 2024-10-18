@@ -10,9 +10,16 @@
             "request": "launch",
             "program": "${workspaceRoot}/RogueCastle/bin/x64/Debug/net40/RogueLegacy.exe",
             "cwd": "${workspaceRoot}/RogueCastle/bin/x64/Debug/net40/",
-            "env": {
-                "LD_LIBRARY_PATH": "${workspaceRoot}/fnalibs3/lib64/"
-            }
+            "linux": {
+                "env": {
+                    "LD_LIBRARY_PATH": "${workspaceRoot}/fnalibs3/lib64/"
+                }
+            },
+            "windows": {
+                "env": {
+                    "PATH": "${workspaceRoot}/fnalibs3/x64/;${env:PATH}"
+                }
+            },
         },
         {
             "name": "Attach",
