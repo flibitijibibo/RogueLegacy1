@@ -1,0 +1,7 @@
+<Directives>
+    <Application>
+        <Assembly Name="mscorlib" />
+        <Assembly Name="FNA" Dynamic="Required All" />
+        <Assembly Name="RogueLegacy" Dynamic="Required All" />
+    </Application>
+</Directives>

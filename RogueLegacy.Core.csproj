@@ -13,7 +13,10 @@
   <PropertyGroup>
     <PublishAot>true</PublishAot>
   </PropertyGroup>
-  <!--<Import Project="$(SolutionDir)NativeAOT_Console.targets" Condition="Exists('$(SolutionDir)NativeAOT_Console.targets')" />-->
+
+  <ItemGroup>
+    <RdXmlFile Include="rd.xml" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FNA\FNA.Core.csproj">
