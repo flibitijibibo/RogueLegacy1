@@ -18,8 +18,8 @@ jobs:
 
     - name: dotnet build (Debug)
       run: |
-        dotnet build -c Debug
+        dotnet build -c Debug RogueLegacy.sln
 
     - name: dotnet build (Release)
       run: |
-        dotnet build -c Release
+        dotnet build -c Release RogueLegacy.sln
