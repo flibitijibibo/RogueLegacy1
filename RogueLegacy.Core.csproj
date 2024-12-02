@@ -10,6 +10,11 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+  <!--<Import Project="$(SolutionDir)NativeAOT_Console.targets" Condition="Exists('$(SolutionDir)NativeAOT_Console.targets')" />-->
+
   <ItemGroup>
     <ProjectReference Include="..\FNA\FNA.Core.csproj">
       <Project>{35253CE1-C864-4CD3-8249-4D1319748E8F}</Project>
