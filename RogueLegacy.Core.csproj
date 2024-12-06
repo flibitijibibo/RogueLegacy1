@@ -8,6 +8,7 @@
   <PropertyGroup>
     <AssemblyName>RogueLegacy</AssemblyName>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -16,6 +17,42 @@
 
   <ItemGroup>
     <RdXmlFile Include="rd.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.de.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.de.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.es.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.es.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.fr.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.fr.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.pl.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.pl.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.pt.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.pt.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LocStrings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.ru.resx">
+      <LogicalName>RogueCastle.Resources.LocStrings.ru.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RogueCastle\Resources\LocStrings.zh.resx">
+      <SubType>Designer</SubType>
+      <LogicalName>RogueCastle.Resources.LocStrings.zh.resources</LogicalName>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
