@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using System.Globalization;
 using System.Xml;
@@ -27,10 +28,12 @@ namespace RogueCastle
             settings.IgnoreWhitespace = true;
             XmlReader reader = null;
 
+            string levelPath;
             if (contentManager == null)
-                reader = XmlReader.Create(filePath, settings);
+                levelPath = filePath;
             else
-                reader = XmlReader.Create(System.IO.Path.Combine(contentManager.RootDirectory, "Levels", filePath + ".xml"), settings);
+                levelPath = System.IO.Path.Combine(contentManager.RootDirectory, "Levels", filePath + ".xml");
+            reader = XmlReader.Create(TitleContainer.OpenStream(levelPath), settings);
 
             // STEPS:
             // 1. Finds a room object in the XML doc and creates a new RoomObj based off that data.

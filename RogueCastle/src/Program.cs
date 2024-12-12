@@ -160,7 +160,7 @@ namespace RogueCastle
             }
             else if (!os.Equals("Windows"))
             {
-                throw new NotSupportedException("Unhandled SDL3 platform!");
+                return SDL.SDL_GetPrefPath("Cellar Door Games", "Rogue Legacy");
             }
             else
             {

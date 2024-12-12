@@ -50,7 +50,7 @@ namespace SpriteSystem
             settings.IgnoreComments = true;
             settings.IgnoreWhitespace = true;
             Texture2D newTexture2D = content.Load<Texture2D>(spritesheetName);
-            XmlReader reader = XmlReader.Create(content.RootDirectory + Path.DirectorySeparatorChar + spritesheetName + ".xml", settings);
+            XmlReader reader = XmlReader.Create(TitleContainer.OpenStream(content.RootDirectory + Path.DirectorySeparatorChar + spritesheetName + ".xml"), settings);
             return ParseData(reader, newTexture2D, returnCharDataNames, spritesheetName);
         }
 

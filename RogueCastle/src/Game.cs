@@ -950,7 +950,7 @@ namespace RogueCastle
             {
                 m_maleChineseNamesLoaded = false;
 
-                using (StreamReader sr = new StreamReader(Path.Combine("Content","HeroNames.txt")))
+                using (StreamReader sr = new StreamReader(TitleContainer.OpenStream(Path.Combine(Content.RootDirectory, "HeroNames.txt"))))
                 {
                     // A test to make sure no special characters are used in the game.
                     SpriteFont junicode = Content.Load<SpriteFont>("Fonts\\Junicode");
@@ -1047,7 +1047,7 @@ namespace RogueCastle
             {
                 m_femaleChineseNamesLoaded = false;
 
-                using (StreamReader sr = new StreamReader(Path.Combine("Content", "HeroineNames.txt")))
+                using (StreamReader sr = new StreamReader(TitleContainer.OpenStream(Path.Combine(Content.RootDirectory, "HeroineNames.txt"))))
                 {
                     // A test to make sure no special characters are used in the game.
                     SpriteFont junicode = Content.Load<SpriteFont>("Fonts\\Junicode");
