@@ -20,13 +20,13 @@
     <DirectPInvoke Include="SDL3" />
     <DirectPInvoke Include="FNA3D" />
     <DirectPInvoke Include="FAudio" />
-    <IlcArg Include="--satellite:$(TargetDir)de\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)es\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)fr\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)pl\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)pt\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)ru\RogueLegacy.resources.dll" />
-    <IlcArg Include="--satellite:$(TargetDir)zh\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)de\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)es\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)fr\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)pl\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)pt\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)ru\RogueLegacy.resources.dll" />
+    <IlcSatelliteAssembly Include="$(TargetDir)zh\RogueLegacy.resources.dll" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
