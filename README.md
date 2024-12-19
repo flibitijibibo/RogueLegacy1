@@ -37,3 +37,9 @@ Lastly, you'll need to copy a few files to the output folder manually:
 - Depending on your OS/architecture, copy the appropriate native libraries from fnalibs (for example, on Windows you would copy `fnalibs/x64/*.dll` next to RogueLegacy.exe)
 
 The game should now start!
+
+## Level Editor
+
+The original level editor used to make Rogue Legacy can be found
+[here](https://github.com/flibitijibibo/RogueCastleEditor). Note, however, that
+the editor is no longer compatible with the latest version of the game!
