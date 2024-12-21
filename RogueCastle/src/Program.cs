@@ -10,7 +10,19 @@ namespace RogueCastle
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+#if NET
+        static void Main(string[] realArgs)
+        {
+            args = realArgs;
+            SDL.SDL_RunApp(0, IntPtr.Zero, RealMain, IntPtr.Zero);
+        }
+
+        static string[] args;
+
+        static int RealMain(int argc, IntPtr argv)
+#else
         static void Main(string[] args)
+#endif
         {
             Environment.SetEnvironmentVariable("FNA_PLATFORM_BACKEND", "SDL3");
 
@@ -123,6 +135,10 @@ namespace RogueCastle
             //    #endif
             //}
             Steamworks.Shutdown();
+
+#if NET
+            return 0;
+#endif
         }
 
         public static readonly string OSDir = GetOSDir();
