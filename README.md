@@ -24,9 +24,9 @@ First, download this repository, FNA, and the native FNA libraries:
 ```
 git clone --recursive https://github.com/FNA-XNA/FNA.git
 git clone --recursive https://github.com/flibitijibibo/RogueLegacy1.git
-curl -O https://fna.flibitijibibo.com/archive/fnalibs3.tar.bz2
-tar xvfj fnalibs3.tar.bz2 --one-top-level
 ```
+
+You can find the latest fnalibs at [this](https://github.com/FNA-XNA/fnalibs-dailies) repository.
 
 From here you should be able to `dotnet build RogueLegacy.sln`. The output
 should be at `RogueCastle/bin/x64/Debug/net40/`.
