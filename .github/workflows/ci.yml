@@ -23,3 +23,42 @@ jobs:
     - name: dotnet build (Release)
       run: |
         dotnet build -c Release RogueLegacy.sln
+
+  linux-aot:
+    name: Steam Linux Runtime (NativeAOT)
+    runs-on: ubuntu-latest
+    container:
+      image: registry.gitlab.steamos.cloud/steamrt/sniper/sdk:beta
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        submodules: true
+
+    - name: Install .NET SDK
+      run: |
+        wget https://packages.microsoft.com/config/debian/11/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+        sudo dpkg -i packages-microsoft-prod.deb
+        sudo apt-get update && sudo apt-get install -y dotnet-sdk-8.0
+        rm packages-microsoft-prod.deb
+
+    - name: Clone FNA
+      run: |
+        git clone --recursive https://github.com/FNA-XNA/FNA.git
+        mv FNA ../FNA
+
+    - name: Install fnalibs
+      run: |
+        cd ../FNA/lib/FAudio
+        cmake -B release -G Ninja . -DCMAKE_BUILD_TYPE=Release
+        sudo ninja -C release install
+        cd ../FNA3D
+        cmake -B release -G Ninja . -DCMAKE_BUILD_TYPE=Release
+        sudo ninja -C release install
+
+    - name: Build/Publish
+      run: |
+        dotnet publish -c Release RogueLegacy.Core.csproj
+        cp /usr/lib/libSDL3.so.0 bin/Release/net8.0/linux-x64/publish/
+        cp /usr/local/lib/libFAudio.so.0 bin/Release/net8.0/linux-x64/publish/
+        cp /usr/local/lib/libFNA3D.so.0 bin/Release/net8.0/linux-x64/publish/
+        ls -l
