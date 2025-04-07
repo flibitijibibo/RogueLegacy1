@@ -58,7 +58,6 @@ jobs:
     - name: Build/Publish
       run: |
         dotnet publish -c Release RogueLegacy.Core.csproj
-        cp /usr/lib/x86_64-linux-gnu/libSDL3.so.0 bin/Release/net8.0/linux-x64/publish/
         cp /usr/local/lib/libFAudio.so.0 bin/Release/net8.0/linux-x64/publish/
         cp /usr/local/lib/libFNA3D.so.0 bin/Release/net8.0/linux-x64/publish/
         ls -l bin/Release/net8.0/linux-x64/publish/
