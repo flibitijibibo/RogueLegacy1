@@ -46,12 +46,6 @@ namespace SteamWorksWrapper
 
         [DllImport("steam_api", CallingConvention = CallingConvention.Cdecl)]
         [return: MarshalAs(UnmanagedType.I1)]
-        private static extern bool SteamAPI_ISteamUserStats_RequestCurrentStats(
-            IntPtr instance
-        );
-
-        [DllImport("steam_api", CallingConvention = CallingConvention.Cdecl)]
-        [return: MarshalAs(UnmanagedType.I1)]
         private static extern bool SteamAPI_ISteamUserStats_StoreStats(
             IntPtr instance
         );
@@ -90,7 +84,7 @@ namespace SteamWorksWrapper
             if (WasInit)
             {
                 IntPtr steamClient = SteamInternal_CreateInterface(
-                    "SteamClient021"
+                    "SteamClient023"
                 );
                 int steamUser = SteamAPI_GetHSteamUser();
                 int steamPipe = SteamAPI_GetHSteamPipe();
@@ -98,9 +92,8 @@ namespace SteamWorksWrapper
                     steamClient,
                     steamUser,
                     steamPipe,
-                    "STEAMUSERSTATS_INTERFACE_VERSION012"
+                    "STEAMUSERSTATS_INTERFACE_VERSION013"
                 );
-                SteamAPI_ISteamUserStats_RequestCurrentStats(steamUserStats);
             }
         }
 
